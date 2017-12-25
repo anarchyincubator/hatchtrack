@@ -65,7 +65,11 @@ P 5150 1550
 F 0 "U1" H 4900 1900 50  0000 C CNN
 F 1 "BME680" H 5400 1150 50  0000 C CNN
 F 2 "manfangfp:BME680" H 5150 1550 50  0001 C CNN
-F 3 "" H 5150 1550 50  0001 C CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf" H 5150 1550 50  0001 C CNN
+F 4 "Bosch" H 5150 1550 60  0001 C CNN "Manufacturer"
+F 5 "BME680" H 5150 1550 60  0001 C CNN "Part Number"
+F 6 "LGA" H 5150 1550 60  0001 C CNN "Package"
+F 7 "Combo sensor" H 5150 1550 60  0001 C CNN "Description"
 	1    5150 1550
 	1    0    0    -1  
 $EndComp
@@ -77,6 +81,10 @@ F 0 "U6" H 1950 5250 50  0000 C CNN
 F 1 "MCP73831" H 2450 4550 50  0000 C CNN
 F 2 "manfangfp:SOT-23-5" H 2200 4900 50  0001 C CNN
 F 3 "" H 2200 4900 50  0001 C CNN
+F 4 "MCP73831T-5ACI/OT" H 2200 4900 60  0001 C CNN "Part Number"
+F 5 "MCP73831T-2ACI/OT" H 2200 4900 60  0001 C CNN "Alternate Part Number"
+F 6 "SOT-25-5" H 2200 4900 60  0001 C CNN "Package"
+F 7 "LiIon Charger" H 2200 4900 60  0001 C CNN "Description"
 	1    2200 4900
 	1    0    0    -1  
 $EndComp
@@ -164,7 +172,11 @@ P 2200 3850
 F 0 "U5" H 1950 4200 50  0000 C CNN
 F 1 "LP5912" H 2400 3600 50  0000 C CNN
 F 2 "manfangfp:WSON-6_2x2mm_Pitch0.65mm" H 2200 3850 50  0001 C CNN
-F 3 "" H 2200 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/lp5912" H 2200 3850 50  0001 C CNN
+F 4 "TI" H 2200 3850 60  0001 C CNN "Manufacturer"
+F 5 "LP5912-3.3DRVR" H 2200 3850 60  0001 C CNN "Part Number"
+F 6 "6-WSON" H 2200 3850 60  0001 C CNN "Package"
+F 7 "3.3V LDO" H 2200 3850 60  0001 C CNN "Description"
 	1    2200 3850
 	1    0    0    -1  
 $EndComp
@@ -208,7 +220,10 @@ P 1550 2350
 F 0 "J1" H 1350 2800 50  0000 L CNN
 F 1 "USB_A" H 1350 2700 50  0000 L CNN
 F 2 "Connectors:USB_Micro-B_10103594-0001LF" H 1700 2300 50  0001 C CNN
-F 3 "" H 1700 2300 50  0001 C CNN
+F 3 "http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 1700 2300 50  0001 C CNN
+F 4 "Amphenol" H 1550 2350 60  0001 C CNN "Manufacturer"
+F 5 "10103594-0001LF" H 1550 2350 60  0001 C CNN "Part Number"
+F 6 "Micro USB Rcpt" H 1550 2350 60  0001 C CNN "Description"
 	1    1550 2350
 	1    0    0    -1  
 $EndComp
@@ -252,7 +267,11 @@ P 2150 6450
 F 0 "U8" H 1900 6800 50  0000 C CNN
 F 1 "CP2102N" H 2600 6000 50  0000 C CNN
 F 2 "Housings_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_Pitch0.5mm" H 2150 6450 50  0001 C CNN
-F 3 "" H 2150 6450 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 2150 6450 50  0001 C CNN
+F 4 "Silicon Labs" H 2150 6450 60  0001 C CNN "Manufacturer"
+F 5 "CP2102N-A01-GQFN20" H 2150 6450 60  0001 C CNN "Part Number"
+F 6 "QFN20" H 2150 6450 60  0001 C CNN "Package"
+F 7 "USB UART bridge" H 2150 6450 60  0001 C CNN "Description"
 	1    2150 6450
 	1    0    0    -1  
 $EndComp
@@ -368,7 +387,11 @@ P 5400 5250
 F 0 "U7" H 5150 5800 50  0000 C CNN
 F 1 "SPK0838HT4H-B" H 5600 5200 50  0000 C CNN
 F 2 "manfangfp:SPK0838HT4H" H 5400 5250 50  0001 C CNN
-F 3 "" H 5400 5250 50  0001 C CNN
+F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiNoIms_KXYAhWCq1QKHSWxBvcQFggwMAE&url=https%3A%2F%2Fwww.mouser.com%2Fds%2F2%2F218%2F-531266.pdf&usg=AOvVaw3MJImY1F4kntXlzbupoiJW" H 5400 5250 50  0001 C CNN
+F 4 "Knowles" H 5400 5250 60  0001 C CNN "Manufacturer"
+F 5 "spk0838ht4h-b" H 5400 5250 60  0001 C CNN "Part Number"
+F 6 "Custom" H 5400 5250 60  0001 C CNN "Package"
+F 7 "MEMS Microphone" H 5400 5250 60  0001 C CNN "Description"
 	1    5400 5250
 	1    0    0    -1  
 $EndComp
@@ -440,7 +463,6 @@ NoConn ~ 2400 5950
 NoConn ~ 2300 5950
 NoConn ~ 2200 5950
 NoConn ~ 2100 6950
-NoConn ~ 5000 4900
 NoConn ~ 9050 3400
 NoConn ~ 9800 2700
 NoConn ~ 7950 2050
@@ -494,7 +516,11 @@ P 2400 2800
 F 0 "U3" H 2150 3150 50  0000 C CNN
 F 1 "TPD3E001" H 2400 2650 50  0000 C CNN
 F 2 "manfangfp:TPD3E001_USON_1.45mmx1mm" H 2400 2800 50  0001 C CNN
-F 3 "" H 2400 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd3e001.pdf" H 2400 2800 50  0001 C CNN
+F 4 "TI" H 2400 2800 60  0001 C CNN "Manufacturer"
+F 5 "TPD3E001DRLR" H 2400 2800 60  0001 C CNN "Part Number"
+F 6 "SOT-5" H 2400 2800 60  0001 C CNN "Package"
+F 7 "USB ESD protection diodes" H 2400 2800 60  0001 C CNN "Description"
 	1    2400 2800
 	1    0    0    -1  
 $EndComp
@@ -537,7 +563,6 @@ NoConn ~ 9800 2200
 NoConn ~ 9800 2300
 NoConn ~ 7950 2250
 NoConn ~ 7950 2150
-NoConn ~ 8950 -150
 NoConn ~ 850  -400
 $Comp
 L ICM20689 U4
@@ -546,7 +571,11 @@ P 5000 3500
 F 0 "U4" H 4750 4050 50  0000 C CNN
 F 1 "ICM20689" H 5250 3450 50  0000 C CNN
 F 2 "manfangfp:ICM20689" H 5000 3500 50  0001 C CNN
-F 3 "" H 5000 3500 50  0001 C CNN
+F 3 "https://www.invensense.com/wp-content/uploads/2016/03/DS-000143-ICM-20689-v1.0.pdf" H 5000 3500 50  0001 C CNN
+F 4 "InvenSense" H 5000 3500 60  0001 C CNN "Manufacturer"
+F 5 "ICM-20689" H 5000 3500 60  0001 C CNN "Part Number"
+F 6 "QFN 24" H 5000 3500 60  0001 C CNN "Package"
+F 7 "Gyroscope/Accelerometer" H 5000 3500 60  0001 C CNN "Description"
 	1    5000 3500
 	1    0    0    -1  
 $EndComp
@@ -607,7 +636,11 @@ P 8900 2350
 F 0 "U2" H 8200 3600 60  0000 C CNN
 F 1 "ESP32-WROOM" H 9400 3600 60  0000 C CNN
 F 2 "manfangfp:ESP32-WROOM" H 9250 3700 60  0001 C CNN
-F 3 "" H 8450 2800 60  0001 C CNN
+F 3 "http://espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf" H 8450 2800 60  0001 C CNN
+F 4 "ESPRESSIF" H 8900 2350 60  0001 C CNN "Manufacturer"
+F 5 "ESP32-WROOM-32" H 8900 2350 60  0001 C CNN "Part Number"
+F 6 "WiFi/BT MCU" H 8900 2350 60  0001 C CNN "Description"
+F 7 "WiFi/BT Module" H 8900 2350 60  0001 C CNN "Notes"
 	1    8900 2350
 	1    0    0    -1  
 $EndComp
@@ -767,6 +800,9 @@ F 0 "R9" V 2680 7000 50  0000 C CNN
 F 1 "R" V 2600 7000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 2530 7000 50  0001 C CNN
 F 3 "" H 2600 7000 50  0001 C CNN
+F 4 "RC0402JR-070RL" H 2600 7000 60  0001 C CNN "Part Number"
+F 5 "0402" H 2600 7000 60  0001 C CNN "Package"
+F 6 "Jumper 0402" H 2600 7000 60  0001 C CNN "Description"
 	1    2600 7000
 	0    1    1    0   
 $EndComp
@@ -1237,4 +1273,9 @@ $EndComp
 Wire Wire Line
 	1250 6050 1450 6050
 Connection ~ 1250 6350
+Wire Wire Line
+	5000 4900 4650 4900
+Wire Wire Line
+	4650 4900 4650 5400
+Connection ~ 4650 5400
 $EndSCHEMATC
