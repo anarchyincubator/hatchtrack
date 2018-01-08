@@ -1,4 +1,4 @@
-update=12/18/2017 2:29:13 PM
+update=1/1/2018 5:46:21 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,5 @@ LibName30=valves
 LibName31=J:/git_projects/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
 LibName32=J:/git_projects/ESP32-kiCAD-Footprints/ESP32-Footprints/espressif-xess
 LibName33=J:/git_projects/manfang_fp/hatchtrack
+LibName34=C:/Program Files/KiCad/share/kicad/library/switches
+LibName35=C:/Program Files/KiCad/share/kicad/library/memory
