@@ -396,9 +396,9 @@ F 3 "" H 4300 3050 50  0001 C CNN
 	1    4300 3050
 	-1   0    0    1   
 $EndComp
-Text Label 7750 2750 2    60   ~ 0
-MCLK
 Text Label 7750 2650 2    60   ~ 0
+MCLK
+Text Label 7750 2750 2    60   ~ 0
 MDATA
 Text Label 4500 3100 0    60   ~ 0
 MCLK
