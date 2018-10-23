@@ -1,4 +1,4 @@
-(module amphenol:USB_Micro-B_10103594-0001LF (layer F.Cu) (tedit 5BCE7326)
+(module USB_Micro-B_10103594-0001LF (layer F.Cu) (tedit 5BCF12EF)
   (descr "Micro USB Type B 10103594-0001LF")
   (tags "USB USB_B USB_micro USB_OTG")
   (attr smd)
@@ -32,8 +32,8 @@
   (pad 6 smd rect (at 0.96 1.62 90) (size 2.5 1.43) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.9 -1.62) (size 2 1.46) (layers F.Cu F.Paste F.Mask))
   (pad "" thru_hole oval (at 2.7 1.4 90) (size 1.2 0.7) (drill oval 1.2 0.7) (layers *.Cu *.Mask))
-  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/amphenol.3dshapes/10103594-0001LF.step
-    (offset (xyz 0 0 2.2))
+  (model ${KIPRJMOD}/3d_models/10103594-0001LF.step
+    (offset (xyz 0 0 2.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
   )

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ht-001-rescue:+Vbat
+# ht-001-rescue_+Vbat
 #
-DEF ht-001-rescue:+Vbat #PWR 0 0 Y Y 1 F P
+DEF ht-001-rescue_+Vbat #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ht-001-rescue:+Vbat" 0 140 50 H V C CNN
+F1 "ht-001-rescue_+Vbat" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +Vbat 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:+Vusb
+# ht-001-rescue_+Vusb
 #
-DEF ht-001-rescue:+Vusb #PWR 0 0 Y Y 1 F P
+DEF ht-001-rescue_+Vusb #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ht-001-rescue:+Vusb" 0 140 50 H V C CNN
+F1 "ht-001-rescue_+Vusb" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +Vusb 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:BME680
+# ht-001-rescue_BME680
 #
-DEF ht-001-rescue:BME680 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_BME680 U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "ht-001-rescue:BME680" 250 -400 50 H V C CNN
+F1 "ht-001-rescue_BME680" 250 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -58,11 +58,11 @@ X Vdd 8 400 -250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:Battery_Cell
+# ht-001-rescue_Battery_Cell
 #
-DEF ht-001-rescue:Battery_Cell BT 0 0 N N 1 F N
+DEF ht-001-rescue_Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "ht-001-rescue:Battery_Cell" 100 0 50 H V L CNN
+F1 "ht-001-rescue_Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -77,11 +77,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:C
+# ht-001-rescue_C
 #
-DEF ht-001-rescue:C C 0 10 N Y 1 F N
+DEF ht-001-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "ht-001-rescue:C" 25 -100 50 H V L CNN
+F1 "ht-001-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -95,11 +95,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:CONN_01X06
+# ht-001-rescue_CONN_01X06
 #
-DEF ht-001-rescue:CONN_01X06 J 0 40 Y N 1 F N
+DEF ht-001-rescue_CONN_01X06 J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "ht-001-rescue:CONN_01X06" 100 0 50 V V C CNN
+F1 "ht-001-rescue_CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -125,11 +125,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:CP2102N-RESCUE-ht-001
+# ht-001-rescue_CP2102N-RESCUE-ht-001
 #
-DEF ht-001-rescue:CP2102N-RESCUE-ht-001 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_CP2102N-RESCUE-ht-001 U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "ht-001-rescue:CP2102N-RESCUE-ht-001" 450 -450 50 H V C CNN
+F1 "ht-001-rescue_CP2102N-RESCUE-ht-001" 450 -450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +164,11 @@ X ~RST 9 700 50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:CREE_LED_RGB
+# ht-001-rescue_CREE_LED_RGB
 #
-DEF ht-001-rescue:CREE_LED_RGB D 0 0 Y N 1 F N
+DEF ht-001-rescue_CREE_LED_RGB D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "ht-001-rescue:CREE_LED_RGB" 0 -350 50 H V C CNN
+F1 "ht-001-rescue_CREE_LED_RGB" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -201,11 +201,11 @@ X R 4 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:ESP32-WROOM
+# ht-001-rescue_ESP32-WROOM
 #
-DEF ht-001-rescue:ESP32-WROOM U 0 40 Y Y 1 F N
+DEF ht-001-rescue_ESP32-WROOM U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "ht-001-rescue:ESP32-WROOM" 500 1250 60 H V C CNN
+F1 "ht-001-rescue_ESP32-WROOM" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -253,11 +253,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:ICM20689
+# ht-001-rescue_ICM20689
 #
-DEF ht-001-rescue:ICM20689 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_ICM20689 U 0 40 Y Y 1 F N
 F0 "U" -250 550 50 H V C CNN
-F1 "ht-001-rescue:ICM20689" 250 -50 50 H V C CNN
+F1 "ht-001-rescue_ICM20689" 250 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -296,11 +296,11 @@ X AD0 9 700 350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:LED
+# ht-001-rescue_LED
 #
-DEF ht-001-rescue:LED D 0 40 Y N 1 F N
+DEF ht-001-rescue_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ht-001-rescue:LED" 0 -100 50 H V C CNN
+F1 "ht-001-rescue_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -317,11 +317,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:LP5912
+# ht-001-rescue_LP5912
 #
-DEF ht-001-rescue:LP5912 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_LP5912 U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "ht-001-rescue:LP5912" 50 -200 50 H V C CNN
+F1 "ht-001-rescue_LP5912" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -342,11 +342,11 @@ X IN 6 250 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:MCP73831
+# ht-001-rescue_MCP73831
 #
-DEF ht-001-rescue:MCP73831 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_MCP73831 U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "ht-001-rescue:MCP73831" 250 -350 50 H V C CNN
+F1 "ht-001-rescue_MCP73831" 250 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -366,11 +366,11 @@ X PROG 5 400 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:R
+# ht-001-rescue_R
 #
-DEF ht-001-rescue:R R 0 0 N Y 1 F N
+DEF ht-001-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ht-001-rescue:R" 0 0 50 V V C CNN
+F1 "ht-001-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -384,11 +384,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:SPK0838HT4H-B
+# ht-001-rescue_SPK0838HT4H-B
 #
-DEF ht-001-rescue:SPK0838HT4H-B U 0 40 Y Y 1 F N
+DEF ht-001-rescue_SPK0838HT4H-B U 0 40 Y Y 1 F N
 F0 "U" -250 550 50 H V C CNN
-F1 "ht-001-rescue:SPK0838HT4H-B" 200 -50 50 H V C CNN
+F1 "ht-001-rescue_SPK0838HT4H-B" 200 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -411,11 +411,11 @@ X Gnd 8 500 150 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:SW_SPST
+# ht-001-rescue_SW_SPST
 #
-DEF ht-001-rescue:SW_SPST SW 0 0 Y N 1 F N
+DEF ht-001-rescue_SW_SPST SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "ht-001-rescue:SW_SPST" 0 -100 50 H V C CNN
+F1 "ht-001-rescue_SW_SPST" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -427,11 +427,11 @@ X B 2 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:TPD3E001
+# ht-001-rescue_TPD3E001
 #
-DEF ht-001-rescue:TPD3E001 U 0 40 Y Y 1 F N
+DEF ht-001-rescue_TPD3E001 U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "ht-001-rescue:TPD3E001" 50 -200 50 H V C CNN
+F1 "ht-001-rescue_TPD3E001" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -452,11 +452,11 @@ X Vcc 6 250 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ht-001-rescue:USB_A
+# ht-001-rescue_USB_A
 #
-DEF ht-001-rescue:USB_A J 0 40 Y Y 1 F N
+DEF ht-001-rescue_USB_A J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "ht-001-rescue:USB_A" -200 350 50 H V L CNN
+F1 "ht-001-rescue_USB_A" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -485,11 +485,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -501,11 +501,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -514,11 +514,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
