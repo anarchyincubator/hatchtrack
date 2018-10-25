@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "HT 001"
 Date "2017-12-16"
-Rev ".01"
+Rev ".02"
 Comp "manfang llc"
 Comment1 ""
 Comment2 ""
@@ -36,11 +36,12 @@ P 1550 4200
 F 0 "U3" H 1300 4550 50  0000 C CNN
 F 1 "MCP73831" H 1650 3850 50  0000 C CNN
 F 2 "manfangfp:SOT-23-5" H 1550 4200 50  0001 C CNN
-F 3 "" H 1550 4200 50  0001 C CNN
-F 4 "MCP73831T-5ACI/OT" H 1550 4200 60  0001 C CNN "Part Number"
-F 5 "SOT-25-5" H 1550 4200 60  0001 C CNN "Package"
-F 6 "LiIon Charger" H 1550 4200 60  0001 C CNN "Description"
-F 7 "MCP73831T-2ACI/OT" H 1550 4200 60  0001 C CNN "Alternate Part Number"
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 1550 4200 50  0001 C CNN
+F 4 "Microchip" H 1550 4200 50  0001 C CNN "Manufacturer"
+F 5 "MCP73831T-5ACI/OT" H 1550 4200 60  0001 C CNN "Part Number"
+F 6 "SOT-25-5" H 1550 4200 60  0001 C CNN "Package"
+F 7 "IC CONTROLLR LI-ION 4.2V SOT23-5" H 1550 4200 60  0001 C CNN "Description"
+F 8 "MCP73831T-2ACI/OT" H 1550 4200 60  0001 C CNN "Alternate Part Number"
 	1    1550 4200
 	1    0    0    -1  
 $EndComp
@@ -74,6 +75,12 @@ F 0 "R2" V 2030 4500 50  0000 C CNN
 F 1 "5.6k" V 1950 4500 50  0000 C CNN
 F 2 "manfangfp:R_0402" V 1880 4500 50  0001 C CNN
 F 3 "" H 1950 4500 50  0001 C CNN
+F 4 "Panasonic" H 1950 4500 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF5601X" H 1950 4500 50  0001 C CNN "Part Number"
+F 6 "R0402" H 1950 4500 50  0001 C CNN "Package"
+F 7 "RES 0402 5.6K 1%" H 1950 4500 50  0001 C CNN "Description"
+F 8 "5% or better" H 1950 4500 50  0001 C CNN "Notes"
+F 9 "CR0402-FX-5601GLF" H 1950 4500 50  0001 C CNN "Alternate Part Number"
 	1    1950 4500
 	1    0    0    -1  
 $EndComp
@@ -202,17 +209,6 @@ F 3 "" H 1500 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG010
-U 1 1 5A3755C5
-P 3000 1200
-F 0 "#FLG010" H 3000 1275 50  0001 C CNN
-F 1 "PWR_FLAG" V 2900 1400 50  0000 C CNN
-F 2 "" H 3000 1200 50  0001 C CNN
-F 3 "" H 3000 1200 50  0001 C CNN
-	1    3000 1200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG011
 U 1 1 5A375615
 P 3000 1650
@@ -243,21 +239,16 @@ L Device:R R7
 U 1 1 5A384417
 P 10000 4200
 F 0 "R7" V 10080 4200 50  0000 C CNN
-F 1 "10k" V 10000 4200 50  0000 C CNN
+F 1 "10K" V 10000 4200 50  0000 C CNN
 F 2 "manfangfp:R_0402" V 9930 4200 50  0001 C CNN
 F 3 "" H 10000 4200 50  0001 C CNN
+F 4 "Panasonic" H 10000 4200 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 10000 4200 50  0001 C CNN "Part Number"
+F 6 "R0402" H 10000 4200 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 10000 4200 50  0001 C CNN "Description"
+F 8 "5% or better" H 10000 4200 50  0001 C CNN "Notes"
+F 9 "CRCW040210K0FKED" H 10000 4200 50  0001 C CNN "Alternate Part Number"
 	1    10000 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5A384472
-P 10000 4400
-F 0 "R8" V 10080 4400 50  0000 C CNN
-F 1 "10k" V 10000 4400 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 9930 4400 50  0001 C CNN
-F 3 "" H 10000 4400 50  0001 C CNN
-	1    10000 4400
 	0    1    1    0   
 $EndComp
 Text Label 10200 4200 0    60   ~ 0
@@ -306,8 +297,8 @@ F 2 "manfangfp:ESP32-WROOM" H 9250 3700 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf" H 8450 2800 60  0001 C CNN
 F 4 "ESPRESSIF" H 8900 2350 60  0001 C CNN "Manufacturer"
 F 5 "ESP32-WROOM-32" H 8900 2350 60  0001 C CNN "Part Number"
-F 6 "WiFi/BT MCU" H 8900 2350 60  0001 C CNN "Description"
-F 7 "WiFi/BT Module" H 8900 2350 60  0001 C CNN "Notes"
+F 6 "WROOM" H 8900 2350 50  0001 C CNN "Package"
+F 7 "WiFi/BT MCU" H 8900 2350 60  0001 C CNN "Description"
 	1    8900 2350
 	1    0    0    -1  
 $EndComp
@@ -366,17 +357,6 @@ Text Notes 4900 3100 0    60   ~ 12
 Gyro/Accelerometer
 NoConn ~ 8950 3400
 $Comp
-L Device:R R6
-U 1 1 5A3E1C21
-P 7450 1500
-F 0 "R6" V 7530 1500 50  0000 C CNN
-F 1 "10k" V 7450 1500 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 7380 1500 50  0001 C CNN
-F 3 "" H 7450 1500 50  0001 C CNN
-	1    7450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR019
 U 1 1 5A3E3223
 P 8000 1250
@@ -400,17 +380,6 @@ F 3 "" H 6850 1700 50  0001 C CNN
 $EndComp
 Text Notes 10450 3050 0    39   ~ 0
 SPI boot mode pullup\n1 Normal\n0 UART boot
-$Comp
-L Device:R R3
-U 1 1 5A335AAE
-P 2350 4200
-F 0 "R3" V 2450 4200 50  0000 C CNN
-F 1 "470" V 2350 4200 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 2280 4200 50  0001 C CNN
-F 3 "" H 2350 4200 50  0001 C CNN
-	1    2350 4200
-	0    1    1    0   
-$EndComp
 Text Label 2250 4550 0    60   ~ 0
 BAT_STAT
 Text Label 7750 2450 2    60   ~ 0
@@ -422,10 +391,12 @@ P 9850 5050
 F 0 "D3" H 9850 5420 50  0000 C CNN
 F 1 "CREE_LED_RGB" H 9850 4700 50  0000 C CNN
 F 2 "manfangfp:LED_Cree-PLCC4_2x2mm_CW" H 9850 5000 50  0001 C CNN
-F 3 "" H 9850 5000 50  0001 C CNN
+F 3 "https://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf" H 9850 5000 50  0001 C CNN
 F 4 "Cree" H 9850 5050 50  0001 C CNN "Manufacturer"
-F 5 "CLMVB-FKA-CFHEHLCBB7A363" H 9850 5050 50  0001 C CNN "Part Number"
+F 5 "CLV1L-FKB-CHMMQEHBB7673673" H 9850 5050 50  0001 C CNN "Part Number"
 F 6 "4-PLCC" H 9850 5050 50  0001 C CNN "Package"
+F 7 "LED RGB DIFFUSED 4PLCC SMD" H 9850 5050 50  0001 C CNN "Description"
+F 8 "ASMB-MTB1-0A3A2" H 9850 5050 50  0001 C CNN "Alternate Part Number"
 	1    9850 5050
 	-1   0    0    1   
 $EndComp
@@ -434,32 +405,16 @@ L Device:R R9
 U 1 1 5A4393D0
 P 10300 4850
 F 0 "R9" V 10380 4850 50  0000 C CNN
-F 1 "1k" V 10300 4850 50  0000 C CNN
+F 1 "1K" V 10300 4850 50  0000 C CNN
 F 2 "manfangfp:R_0402" V 10230 4850 50  0001 C CNN
 F 3 "" H 10300 4850 50  0001 C CNN
+F 4 "Panasonic" H 10300 4850 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 10300 4850 50  0001 C CNN "Part Number"
+F 6 "R0402" H 10300 4850 50  0001 C CNN "Package"
+F 7 "RES 0402 1K 1%" H 10300 4850 50  0001 C CNN "Description"
+F 8 "5% or better" H 10300 4850 50  0001 C CNN "Notes"
+F 9 "CRCW04021K00FKED" H 10300 4850 50  0001 C CNN "Alternate Part Number"
 	1    10300 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5A43A326
-P 10300 5050
-F 0 "R10" V 10380 5050 50  0000 C CNN
-F 1 "1k" V 10300 5050 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 10230 5050 50  0001 C CNN
-F 3 "" H 10300 5050 50  0001 C CNN
-	1    10300 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5A43A3D1
-P 10300 5250
-F 0 "R11" V 10380 5250 50  0000 C CNN
-F 1 "1k" V 10300 5250 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 10230 5250 50  0001 C CNN
-F 3 "" H 10300 5250 50  0001 C CNN
-	1    10300 5250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -515,7 +470,7 @@ Text Label 10350 5950 2    60   ~ 0
 MTDO
 Text Label 10350 5750 2    60   ~ 0
 MTMS
-Text Label 10350 5850 2    60   ~ 0
+Text Label 10300 5850 2    60   ~ 0
 MTDI
 NoConn ~ 9350 3400
 NoConn ~ 9800 2100
@@ -652,8 +607,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 3800 2500 3700
 Wire Wire Line
-	3000 1100 3000 1200
-Wire Wire Line
 	3000 1450 3000 1650
 Wire Wire Line
 	2100 3800 2500 3800
@@ -706,7 +659,6 @@ Wire Wire Line
 	9250 3400 9250 3600
 Wire Wire Line
 	9800 2800 9850 2800
-Connection ~ 3000 1200
 Wire Wire Line
 	7450 1850 7450 1700
 $Comp
@@ -727,7 +679,11 @@ P 5350 4650
 F 0 "U6" H 5770 4590 50  0000 C CNN
 F 1 "ICM20602" H 6040 4590 50  0000 C CNN
 F 2 "manfangfp:PQFN50P300X300X80-16N" H 5350 4650 50  0001 C CNN
-F 3 "" H 5350 4650 50  0001 C CNN
+F 3 "http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf" H 5350 4650 50  0001 C CNN
+F 4 "TDK Invensense" H 5350 4650 50  0001 C CNN "Manufacturer"
+F 5 "ICM-20602" H 5350 4650 50  0001 C CNN "Part Number"
+F 6 "16-LGA (3x3)" H 5350 4650 50  0001 C CNN "Package"
+F 7 "IMU ACCEL/GYRO/TEMP I2C/SPI LGA" H 5350 4650 50  0001 C CNN "Description"
 	1    5350 4650
 	1    0    0    -1  
 $EndComp
@@ -859,51 +815,18 @@ D-
 Text Label 1050 6850 2    60   ~ 0
 D+
 $Comp
-L Device:R R4
-U 1 1 5B4FC318
-P 5350 6350
-F 0 "R4" V 5430 6350 50  0000 C CNN
-F 1 "10k" V 5350 6350 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 5280 6350 50  0001 C CNN
-F 3 "" H 5350 6350 50  0001 C CNN
-	1    5350 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5B4FC38D
-P 5350 7000
-F 0 "R5" V 5430 7000 50  0000 C CNN
-F 1 "10k" V 5350 7000 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 5280 7000 50  0001 C CNN
-F 3 "" H 5350 7000 50  0001 C CNN
-	1    5350 7000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Q_NPN_BCE Q1
 U 1 1 5B4FC418
 P 6150 6350
 F 0 "Q1" H 6350 6400 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 6350 6300 50  0000 L CNN
-F 2 "manfangfp:D_SOD-323" H 6350 6450 50  0001 C CNN
-F 3 "" H 6150 6350 50  0001 C CNN
+F 1 "SS8050" H 6350 6300 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6350 6450 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 6350 50  0001 C CNN
 F 4 "ComChip" H 6150 6350 60  0001 C CNN "Manufacturer"
 F 5 "SS8050-G" H 6150 6350 60  0001 C CNN "Part Number"
+F 6 "SOT-23" H 6150 6350 50  0001 C CNN "Package"
+F 7 "NPN TRANSISTOR 1.5A 40V SOT-23 R" H 6150 6350 50  0001 C CNN "Description"
 	1    6150 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q2
-U 1 1 5B4FC4E6
-P 6150 7000
-F 0 "Q2" H 6350 7050 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 6350 6950 50  0000 L CNN
-F 2 "manfangfp:D_SOD-323" H 6350 7100 50  0001 C CNN
-F 3 "" H 6150 7000 50  0001 C CNN
-F 4 "ComChip" H 6150 7000 60  0001 C CNN "Manufacturer"
-F 5 "SS8050-G" H 6150 7000 60  0001 C CNN "Part Number"
-	1    6150 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -966,9 +889,13 @@ L Device:D_Schottky D1
 U 1 1 5B530B47
 P 2550 1100
 F 0 "D1" H 2550 1200 50  0000 C CNN
-F 1 "D_Schottky" H 2550 1000 50  0000 C CNN
+F 1 "BAT-165" H 2550 1000 50  0000 C CNN
 F 2 "manfangfp:D_SOD-323" H 2550 1100 50  0001 C CNN
-F 3 "" H 2550 1100 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/bat165series.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113df01f69804d6" H 2550 1100 50  0001 C CNN
+F 4 "Infineon" H 2550 1100 50  0001 C CNN "Manufacturer"
+F 5 "BAT165E6327HTSA1" H 2550 1100 50  0001 C CNN "Part Number"
+F 6 "SOD-323" H 2550 1100 50  0001 C CNN "Package"
+F 7 "DIODE SCHOTTKY 40V 750MA SOD323" H 2550 1100 50  0001 C CNN "Description"
 	1    2550 1100
 	-1   0    0    1   
 $EndComp
@@ -1006,12 +933,14 @@ $EndComp
 $Comp
 L hatchtrack:CONN_01X02-conn J2
 U 1 1 5B68FBE3
-P 3200 1400
-F 0 "J2" H 3200 1550 50  0000 C CNN
-F 1 "CONN_01X02" V 3300 1400 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 3200 1400 50  0001 C CNN
-F 3 "" H 3200 1400 50  0001 C CNN
-	1    3200 1400
+P 3400 1400
+F 0 "J2" H 3400 1550 50  0000 C CNN
+F 1 "DNF" V 3500 1400 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 3400 1400 50  0001 C CNN
+F 3 "" H 3400 1400 50  0001 C CNN
+F 4 "SOLDER PADS" H 3500 1250 50  0000 C CNN "Part Number"
+F 5 "DNF" H 3400 1400 50  0001 C CNN "fit_field"
+	1    3400 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1021,20 +950,14 @@ P 2500 3950
 F 0 "D2" H 2500 4050 50  0000 C CNN
 F 1 "LED" H 2500 3850 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 2500 3950 50  0001 C CNN
-F 3 "" H 2500 3950 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf" H 2500 3950 50  0001 C CNN
+F 4 "Kingbright" H 2500 3950 50  0001 C CNN "Manufacturer"
+F 5 "APHHS1005CGCK" H 2500 3950 50  0001 C CNN "Part Number"
+F 6 "D0402" H 2500 3950 50  0001 C CNN "Package"
+F 7 "LED GREEN CLEAR CHIP SMD" H 2500 3950 50  0001 C CNN "Description"
+F 8 "SML-LX0402SUGC-TR" H 2500 3950 50  0001 C CNN "Alternate Part Number"
 	1    2500 3950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5B6A137F
-P 1450 5450
-F 0 "R1" V 1350 5450 50  0000 C CNN
-F 1 "1k" V 1450 5450 50  0000 C CNN
-F 2 "manfangfp:R_0402" V 1380 5450 50  0001 C CNN
-F 3 "" H 1450 5450 50  0001 C CNN
-	1    1450 5450
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C1
@@ -1122,8 +1045,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 3300 9800 3000
 Wire Wire Line
-	3000 1200 3000 1350
-Wire Wire Line
 	6100 4550 6350 4550
 Wire Wire Line
 	6100 4450 6100 4550
@@ -1153,8 +1074,12 @@ U 1 1 5BD38A75
 P 2000 6450
 F 0 "U1" H 1750 7350 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 1350 7250 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 2450 5650 50  0001 L CNN
+F 2 "si_labs:QFN-24-1EP_4x4mm_Pitch0.5mm" H 2450 5650 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 2050 5400 50  0001 C CNN
+F 4 "Silicon Labs" H 2000 6450 50  0001 C CNN "Manufacturer"
+F 5 "CP2102N-A01-GQFN24" H 2000 6450 50  0001 C CNN "Part Number"
+F 6 "24-QFN (4x4)" H 2000 6450 50  0001 C CNN "Package"
+F 7 "IC BRIDGE USB TO UART 24QFN" H 2000 6450 50  0001 C CNN "Description"
 	1    2000 6450
 	1    0    0    -1  
 $EndComp
@@ -1707,4 +1632,169 @@ F 9 "CL05A104MP5NNNC" H 7150 1700 50  0001 C CNN "Alternate Part Number"
 	1    7150 1700
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R8
+U 1 1 5C4DEDB3
+P 10000 4400
+F 0 "R8" V 10080 4400 50  0000 C CNN
+F 1 "10K" V 10000 4400 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 9930 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+F 4 "Panasonic" H 10000 4400 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 10000 4400 50  0001 C CNN "Part Number"
+F 6 "R0402" H 10000 4400 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 10000 4400 50  0001 C CNN "Description"
+F 8 "CRCW040210K0FKED" H 10000 4400 50  0001 C CNN "Alternate Part Number"
+F 9 "5% or better" H 0   0   50  0001 C CNN "Notes"
+	1    10000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C4DF259
+P 7450 1500
+F 0 "R6" H 7350 1500 50  0000 C CNN
+F 1 "10K" V 7450 1500 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 7380 1500 50  0001 C CNN
+F 3 "" H 7450 1500 50  0001 C CNN
+F 4 "Panasonic" H 7450 1500 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 7450 1500 50  0001 C CNN "Part Number"
+F 6 "R0402" H 7450 1500 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 7450 1500 50  0001 C CNN "Description"
+F 8 "CRCW040210K0FKED" H 7450 1500 50  0001 C CNN "Alternate Part Number"
+F 9 "5% or better" H 0   0   50  0001 C CNN "Notes"
+	1    7450 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C4DF914
+P 5350 6350
+F 0 "R4" V 5430 6350 50  0000 C CNN
+F 1 "10K" V 5350 6350 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 5280 6350 50  0001 C CNN
+F 3 "" H 5350 6350 50  0001 C CNN
+F 4 "Panasonic" H 5350 6350 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 5350 6350 50  0001 C CNN "Part Number"
+F 6 "R0402" H 5350 6350 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 5350 6350 50  0001 C CNN "Description"
+F 8 "CRCW040210K0FKED" H 5350 6350 50  0001 C CNN "Alternate Part Number"
+F 9 "5% or better" H 0   0   50  0001 C CNN "Notes"
+	1    5350 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C4DFC98
+P 5350 7000
+F 0 "R5" V 5430 7000 50  0000 C CNN
+F 1 "10K" V 5350 7000 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 5280 7000 50  0001 C CNN
+F 3 "" H 5350 7000 50  0001 C CNN
+F 4 "Panasonic" H 5350 7000 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 5350 7000 50  0001 C CNN "Part Number"
+F 6 "R0402" H 5350 7000 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 5350 7000 50  0001 C CNN "Description"
+F 8 "CRCW040210K0FKED" H 5350 7000 50  0001 C CNN "Alternate Part Number"
+F 9 "5% or better" H 0   0   50  0001 C CNN "Notes"
+	1    5350 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5C4E024A
+P 10300 5050
+F 0 "R10" V 10380 5050 50  0000 C CNN
+F 1 "1K" V 10300 5050 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 10230 5050 50  0001 C CNN
+F 3 "" H 10300 5050 50  0001 C CNN
+F 4 "Panasonic" H 10300 5050 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 10300 5050 50  0001 C CNN "Part Number"
+F 6 "R0402" H 10300 5050 50  0001 C CNN "Package"
+F 7 "RES 0402 1K 1%" H 10300 5050 50  0001 C CNN "Description"
+F 8 "5% or better" H 10300 5050 50  0001 C CNN "Notes"
+F 9 "CRCW04021K00FKED" H 10300 5050 50  0001 C CNN "Alternate Part Number"
+	1    10300 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C4E056C
+P 10300 5250
+F 0 "R11" V 10380 5250 50  0000 C CNN
+F 1 "1K" V 10300 5250 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 10230 5250 50  0001 C CNN
+F 3 "" H 10300 5250 50  0001 C CNN
+F 4 "Panasonic" H 10300 5250 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 10300 5250 50  0001 C CNN "Part Number"
+F 6 "R0402" H 10300 5250 50  0001 C CNN "Package"
+F 7 "RES 0402 1K 1%" H 10300 5250 50  0001 C CNN "Description"
+F 8 "5% or better" H 10300 5250 50  0001 C CNN "Notes"
+F 9 "CRCW04021K00FKED" H 10300 5250 50  0001 C CNN "Alternate Part Number"
+	1    10300 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C4E0913
+P 1450 5450
+F 0 "R1" V 1350 5450 50  0000 C CNN
+F 1 "1K" V 1450 5450 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 1380 5450 50  0001 C CNN
+F 3 "" H 1450 5450 50  0001 C CNN
+F 4 "Panasonic" H 1450 5450 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 1450 5450 50  0001 C CNN "Part Number"
+F 6 "R0402" H 1450 5450 50  0001 C CNN "Package"
+F 7 "RES 0402 1K 1%" H 1450 5450 50  0001 C CNN "Description"
+F 8 "5% or better" H 1450 5450 50  0001 C CNN "Notes"
+F 9 "CRCW04021K00FKED" H 1450 5450 50  0001 C CNN "Alternate Part Number"
+	1    1450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C4E0F2D
+P 2350 4200
+F 0 "R3" V 2430 4200 50  0000 C CNN
+F 1 "1K" V 2350 4200 50  0000 C CNN
+F 2 "manfangfp:R_0402" V 2280 4200 50  0001 C CNN
+F 3 "" H 2350 4200 50  0001 C CNN
+F 4 "Panasonic" H 2350 4200 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 2350 4200 50  0001 C CNN "Part Number"
+F 6 "R0402" H 2350 4200 50  0001 C CNN "Package"
+F 7 "RES 0402 1K 1%" H 2350 4200 50  0001 C CNN "Description"
+F 8 "5% or better" H 2350 4200 50  0001 C CNN "Notes"
+F 9 "CRCW04021K00FKED" H 2350 4200 50  0001 C CNN "Alternate Part Number"
+	1    2350 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q2
+U 1 1 5C4E294E
+P 6150 7000
+F 0 "Q2" H 6350 7050 50  0000 L CNN
+F 1 "SS8050" H 6350 6950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6350 7100 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 7000 50  0001 C CNN
+F 4 "ComChip" H 6150 7000 60  0001 C CNN "Manufacturer"
+F 5 "SS8050-G" H 6150 7000 60  0001 C CNN "Part Number"
+F 6 "SOT-23" H 6150 7000 50  0001 C CNN "Package"
+F 7 "NPN TRANSISTOR 1.5A 40V SOT-23 R" H 6150 7000 50  0001 C CNN "Description"
+	1    6150 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1350 3000 1350
+Wire Wire Line
+	3000 1450 3200 1450
+NoConn ~ 2600 5850
+NoConn ~ 2600 5950
+NoConn ~ 2600 6350
+NoConn ~ 2600 6550
+NoConn ~ 2600 6750
+NoConn ~ 2600 6850
+NoConn ~ 2600 6950
+NoConn ~ 2600 7050
+Wire Wire Line
+	3000 1100 3000 1350
 $EndSCHEMATC
