@@ -35,11 +35,11 @@ U 1 1 5A332EBD
 P 1550 4200
 F 0 "U3" H 1300 4550 50  0000 C CNN
 F 1 "MCP73831" H 1650 3850 50  0000 C CNN
-F 2 "manfangfp:SOT-23-5" H 1550 4200 50  0001 C CNN
+F 2 "TO_SOT:SOT-23-5" H 1550 4200 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 1550 4200 50  0001 C CNN
 F 4 "Microchip" H 1550 4200 50  0001 C CNN "Manufacturer"
 F 5 "MCP73831T-5ACI/OT" H 1550 4200 60  0001 C CNN "Part Number"
-F 6 "SOT-25-5" H 1550 4200 60  0001 C CNN "Package"
+F 6 "SOT-23-5" H 1550 4200 60  0001 C CNN "Package"
 F 7 "IC CONTROLLR LI-ION 4.2V SOT23-5" H 1550 4200 60  0001 C CNN "Description"
 F 8 "MCP73831T-2ACI/OT" H 1550 4200 60  0001 C CNN "Alternate Part Number"
 	1    1550 4200
@@ -138,7 +138,7 @@ U 1 1 5A349B5E
 P 1050 1300
 F 0 "J1" H 850 1750 50  0000 L CNN
 F 1 "USB_A" H 850 1650 50  0000 L CNN
-F 2 "Connectors:USB_Micro-B_10103594-0001LF" H 1200 1250 50  0001 C CNN
+F 2 "molex:USB-Micro-B-Molex_105443-1101" H 1200 1250 50  0001 C CNN
 F 3 "http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 1200 1250 50  0001 C CNN
 F 4 "Molex" H 1050 1300 60  0001 C CNN "Manufacturer"
 F 5 "1054431101" H 1050 1300 60  0001 C CNN "Part Number"
@@ -378,7 +378,7 @@ F 3 "" H 5600 2650 50  0001 C CNN
 	1    5600 2650
 	1    0    0    -1  
 $EndComp
-Text Notes 9600 3900 0    39   ~ 0
+Text Notes 9700 3650 0    39   ~ 0
 SPI boot mode pullup\n1 Normal\n0 UART boot
 Text Label 2250 4550 0    60   ~ 0
 BAT_STAT
@@ -390,7 +390,7 @@ U 1 1 5A438916
 P 9450 1150
 F 0 "D3" H 9450 1520 50  0000 C CNN
 F 1 "CREE_LED_RGB" H 9450 800 50  0000 C CNN
-F 2 "manfangfp:LED_Cree-PLCC4_2x2mm_CW" H 9450 1100 50  0001 C CNN
+F 2 "leds_manfang:PLCC4" H 9450 1100 50  0001 C CNN
 F 3 "https://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf" H 9450 1100 50  0001 C CNN
 F 4 "Cree" H 9450 1150 50  0001 C CNN "Manufacturer"
 F 5 "CLV1L-FKB-CHMMQEHBB7673673" H 9450 1150 50  0001 C CNN "Part Number"
@@ -428,11 +428,11 @@ F 3 "" H 9000 1100 50  0001 C CNN
 	1    9000 1100
 	1    0    0    -1  
 $EndComp
-Text Label 10100 950  0    60   ~ 0
+Text Label 10100 1350 0    60   ~ 0
 LED_R
 Text Label 10100 1150 0    60   ~ 0
 LED_G
-Text Label 10100 1350 0    60   ~ 0
+Text Label 10100 950  0    60   ~ 0
 LED_B
 Text Label 8750 3350 0    60   ~ 0
 LED_R
@@ -651,7 +651,7 @@ U 1 1 5B4F6C14
 P 4400 4350
 F 0 "U6" H 4820 4290 50  0000 C CNN
 F 1 "ICM20602" H 5090 4290 50  0000 C CNN
-F 2 "manfangfp:PQFN50P300X300X80-16N" H 4400 4350 50  0001 C CNN
+F 2 "tdk_invensense:PQFN50P300X300X80-16N" H 4400 4350 50  0001 C CNN
 F 3 "http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf" H 4400 4350 50  0001 C CNN
 F 4 "TDK Invensense" H 4400 4350 50  0001 C CNN "Manufacturer"
 F 5 "ICM-20602" H 4400 4350 50  0001 C CNN "Part Number"
@@ -793,7 +793,7 @@ U 1 1 5B4FC418
 P 6150 6350
 F 0 "Q1" H 6350 6400 50  0000 L CNN
 F 1 "SS8050" H 6350 6300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6350 6450 50  0001 C CNN
+F 2 "TO_SOT:SOT-23-5" H 6350 6450 50  0001 C CNN
 F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 6350 50  0001 C CNN
 F 4 "ComChip" H 6150 6350 60  0001 C CNN "Manufacturer"
 F 5 "SS8050-G" H 6150 6350 60  0001 C CNN "Part Number"
@@ -862,7 +862,7 @@ U 1 1 5B530B47
 P 2550 1100
 F 0 "D1" H 2550 1200 50  0000 C CNN
 F 1 "BAT-165" H 2550 1000 50  0000 C CNN
-F 2 "manfangfp:D_SOD-323" H 2550 1100 50  0001 C CNN
+F 2 "diodes:D_SOD-323" H 2550 1100 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/bat165series.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113df01f69804d6" H 2550 1100 50  0001 C CNN
 F 4 "Infineon" H 2550 1100 50  0001 C CNN "Manufacturer"
 F 5 "BAT165E6327HTSA1" H 2550 1100 50  0001 C CNN "Part Number"
@@ -921,7 +921,7 @@ U 1 1 5A335ADD
 P 2500 3950
 F 0 "D2" H 2500 4050 50  0000 C CNN
 F 1 "LED" H 2500 3850 50  0000 C CNN
-F 2 "LEDs:LED_0402" H 2500 3950 50  0001 C CNN
+F 2 "leds_manfang:LED_0402" H 2500 3950 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf" H 2500 3950 50  0001 C CNN
 F 4 "Kingbright" H 2500 3950 50  0001 C CNN "Manufacturer"
 F 5 "APHHS1005CGCK" H 2500 3950 50  0001 C CNN "Part Number"
@@ -976,8 +976,6 @@ F 3 "" H 1200 6400 50  0001 C CNN
 	1    1200 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 3950 8550 3900
 Wire Wire Line
 	1150 3150 1150 3200
 Wire Wire Line
@@ -1742,7 +1740,7 @@ U 1 1 5C4E294E
 P 6150 7000
 F 0 "Q2" H 6350 7050 50  0000 L CNN
 F 1 "SS8050" H 6350 6950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6350 7100 50  0001 C CNN
+F 2 "TO_SOT:SOT-23-5" H 6350 7100 50  0001 C CNN
 F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 7000 50  0001 C CNN
 F 4 "ComChip" H 6150 7000 60  0001 C CNN "Manufacturer"
 F 5 "SS8050-G" H 6150 7000 60  0001 C CNN "Part Number"
@@ -1767,30 +1765,35 @@ Wire Wire Line
 	3000 1100 3000 1350
 Wire Wire Line
 	8550 3950 8550 4150
-Wire Wire Line
-	8550 3750 9050 3750
-Wire Wire Line
-	9050 3750 9050 4050
-NoConn ~ 9350 4050
 $Comp
-L sw_push:SW_SPDT_6PIN_0 SW?
-U 1 1 5C6F6005
-P 9200 4350
-F 0 "SW?" H 9528 4528 50  0000 L CNN
-F 1 "SW_SPDT_6PIN_0" H 9528 4437 50  0000 L CNN
-F 2 "manfangfp:CK_SW_PN_SERIES" H 9200 4350 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1413/pn.pdf" H 9200 4350 50  0001 C CNN
-F 4 "C&K" H 9200 4350 50  0001 C CNN "Manufacturer"
-F 5 "PN11SHNA03QE" H 9200 4350 50  0001 C CNN "Part Number"
-F 6 "Pushbutton Switch SPDT Standard Through Hole, Right Angle" H 9200 4350 50  0001 C CNN "Description"
-	1    9200 4350
+L Switch:SW_Push SW1
+U 1 1 5C73595D
+P 9500 3750
+F 0 "SW1" H 9500 4035 50  0000 C CNN
+F 1 "SW_Push" H 9500 3944 50  0000 C CNN
+F 2 "switches:CK_SW_PUSH_FP11SPA1B1TP00" H 9500 3950 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1401/fp.pdf" H 9500 3950 50  0001 C CNN
+F 4 "C&K" H 9500 3750 50  0001 C CNN "Manufacturer"
+F 5 "FP11SPA1B1TP00" H 9500 3750 50  0001 C CNN "Part Number"
+F 6 "Pushbutton Switch SPST-NO Standard Through Hole, Right Angle" H 9500 3750 50  0001 C CNN "Description"
+	1    9500 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 4050 9200 3900
+	8550 3850 8550 3950
 Wire Wire Line
-	9200 3900 8550 3900
-Connection ~ 8550 3900
+	8550 3750 9300 3750
+$Comp
+L power:GND #PWR0107
+U 1 1 5C7623E1
+P 9700 3850
+F 0 "#PWR0107" H 9700 3600 50  0001 C CNN
+F 1 "GND" H 9700 3700 50  0000 C CNN
+F 2 "" H 9700 3850 50  0001 C CNN
+F 3 "" H 9700 3850 50  0001 C CNN
+	1    9700 3850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8550 3900 8550 3850
+	9700 3750 9700 3850
 $EndSCHEMATC
