@@ -172,11 +172,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_+Vbat-hatchtrack
+# lib_sch2_+Vbat
 #
-DEF hatchtrack_+Vbat-hatchtrack #PWR 0 0 Y Y 1 F P
+DEF lib_sch2_+Vbat #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "hatchtrack_+Vbat-hatchtrack" 0 140 50 H V C CNN
+F1 "lib_sch2_+Vbat" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -187,11 +187,11 @@ X +Vbat 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_+Vusb-hatchtrack
+# lib_sch2_+Vusb
 #
-DEF hatchtrack_+Vusb-hatchtrack #PWR 0 0 Y Y 1 F P
+DEF lib_sch2_+Vusb #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "hatchtrack_+Vusb-hatchtrack" 0 140 50 H V C CNN
+F1 "lib_sch2_+Vusb" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -202,11 +202,11 @@ X +Vusb 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_BME680-hatchtrack
+# lib_sch2_BME680-lib_sch
 #
-DEF hatchtrack_BME680-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2_BME680-lib_sch U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "hatchtrack_BME680-hatchtrack" 250 -400 50 H V C CNN
+F1 "lib_sch2_BME680-lib_sch" 250 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -229,11 +229,11 @@ X Vdd 8 400 -250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_CONN_01X02-conn
+# lib_sch2_CONN_01X02-conn-lib_sch
 #
-DEF hatchtrack_CONN_01X02-conn J 0 40 Y N 1 F N
+DEF lib_sch2_CONN_01X02-conn-lib_sch J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "hatchtrack_CONN_01X02-conn" 100 0 50 V V C CNN
+F1 "lib_sch2_CONN_01X02-conn-lib_sch" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -251,11 +251,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_CONN_01X06-conn
+# lib_sch2_CONN_01X06-conn
 #
-DEF hatchtrack_CONN_01X06-conn J 0 40 Y N 1 F N
+DEF lib_sch2_CONN_01X06-conn J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "hatchtrack_CONN_01X06-conn" 100 0 50 V V C CNN
+F1 "lib_sch2_CONN_01X06-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -281,11 +281,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_CREE_LED_RGB-hatchtrack
+# lib_sch2_CREE_LED_RGB-hatchtrack
 #
-DEF hatchtrack_CREE_LED_RGB-hatchtrack D 0 0 Y N 1 F N
+DEF lib_sch2_CREE_LED_RGB-hatchtrack D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "hatchtrack_CREE_LED_RGB-hatchtrack" 0 -350 50 H V C CNN
+F1 "lib_sch2_CREE_LED_RGB-hatchtrack" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -318,11 +318,11 @@ X R 4 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_ESP32-WROOM-ESP32-footprints-Shem-Lib
+# lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib
 #
-DEF hatchtrack_ESP32-WROOM-ESP32-footprints-Shem-Lib U 0 40 Y Y 1 F N
+DEF lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "hatchtrack_ESP32-WROOM-ESP32-footprints-Shem-Lib" 500 1250 60 H V C CNN
+F1 "lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -370,11 +370,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_ICM20602-hatchtrack
+# lib_sch2_ICM20602-hatchtrack
 #
-DEF hatchtrack_ICM20602-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2_ICM20602-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" 420 -60 50 H V C CNN
-F1 "hatchtrack_ICM20602-hatchtrack" 690 -60 50 H V C CNN
+F1 "lib_sch2_ICM20602-hatchtrack" 690 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -405,11 +405,11 @@ X RESV 9 700 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_LP5912-hatchtrack
+# lib_sch2_LP5912-hatchtrack
 #
-DEF hatchtrack_LP5912-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2_LP5912-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "hatchtrack_LP5912-hatchtrack" -50 -250 50 H V C CNN
+F1 "lib_sch2_LP5912-hatchtrack" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -420,22 +420,21 @@ $FPLIST
  DIP*W7.62mm*
 $ENDFPLIST
 DRAW
-S -300 300 150 -150 0 1 10 f
+S -300 300 150 -100 0 1 10 f
 X OUT 1 -400 200 100 R 50 50 1 1 w
 X NC 2 -400 100 100 R 50 50 1 1 N
 X PG 3 -400 0 100 R 50 50 1 1 O
 X EN 4 250 0 100 L 50 50 1 1 I
 X Gnd 5 250 100 100 L 50 50 1 1 W
 X IN 6 250 200 100 L 50 50 1 1 W
-X EP 7 250 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_MCP73831-hatchtrack
+# lib_sch2_MCP73831-hatchtrack
 #
-DEF hatchtrack_MCP73831-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2_MCP73831-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "hatchtrack_MCP73831-hatchtrack" 250 -350 50 H V C CNN
+F1 "lib_sch2_MCP73831-hatchtrack" 250 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -455,11 +454,11 @@ X PROG 5 400 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_TPD3E001-hatchtrack
+# lib_sch2_TPD3E001-hatchtrack
 #
-DEF hatchtrack_TPD3E001-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2_TPD3E001-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "hatchtrack_TPD3E001-hatchtrack" 50 -200 50 H V C CNN
+F1 "lib_sch2_TPD3E001-hatchtrack" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -480,11 +479,11 @@ X Vcc 6 250 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# hatchtrack_USB_A-conn
+# lib_sch2_USB_A-conn
 #
-DEF hatchtrack_USB_A-conn J 0 40 Y Y 1 F N
+DEF lib_sch2_USB_A-conn J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "hatchtrack_USB_A-conn" -200 350 50 H V L CNN
+F1 "lib_sch2_USB_A-conn" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

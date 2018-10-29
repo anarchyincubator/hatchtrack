@@ -1,0 +1,10 @@
+(module wire_solder:SolderWirePad_2x_1mmDrill (layer F.Cu) (tedit 5BD4C006)
+  (fp_text reference J2 (at 0.2738 -2.0904) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.12)))
+  )
+  (fp_text value DNF (at 0.635 3.81) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -1.905 0) (size 2.49936 2.49936) (drill 1.00076) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 1.905 0) (size 2.49936 2.49936) (drill 1.00076) (layers *.Cu *.Mask))
+)
