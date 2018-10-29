@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "HT 001"
+Title "Hatchtrack"
 Date "2017-12-16"
 Rev "02"
-Comp "manfang llc"
+Comp "Widgt, LLC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -193,9 +193,9 @@ Text Label 4150 1750 0    60   ~ 0
 SCL
 Text Label 4150 1600 0    60   ~ 0
 SDA
-Text Label 6300 3200 0    60   ~ 0
+Text Label 6200 3400 0    60   ~ 0
 SCL
-Text Label 6300 3100 0    60   ~ 0
+Text Label 6200 3300 0    60   ~ 0
 SDA
 $Comp
 L power:PWR_FLAG #FLG09
@@ -451,7 +451,7 @@ MTDI
 NoConn ~ 8100 4350
 NoConn ~ 8550 3050
 NoConn ~ 8550 3250
-NoConn ~ 6700 3300
+NoConn ~ 6700 3100
 $Comp
 L lib_sch2:CONN_01X06-conn J3
 U 1 1 5A513D20
@@ -879,7 +879,7 @@ $EndComp
 Wire Wire Line
 	3000 1100 3000 1050
 NoConn ~ 8550 2650
-NoConn ~ 6700 3400
+NoConn ~ 6700 3200
 $Comp
 L power:GND #PWR032
 U 1 1 5B68CB46
@@ -1814,13 +1814,9 @@ $EndComp
 Wire Wire Line
 	9200 3650 8550 3650
 Text Notes 7050 1050 0    39   ~ 0
-Moved BAT_STAT from IO26 to IO4\nMoved SDA from IO17 to IO34\nMoved SCL from IO16 to IO35\nMove LED_B from IO19 to IO16\nMoved LED_G from IO18 to IO17
+Moved BAT_STAT from IO26 to IO4\nMoved SDA from IO17 to IO32\nMoved SCL from IO16 to IO33\nMove LED_B from IO19 to IO16\nMoved LED_G from IO18 to IO17
 Text Notes 7050 650  0    39   ~ 8
 CHANGE LOG
-Wire Wire Line
-	6100 3100 6700 3100
-Wire Wire Line
-	6100 3200 6700 3200
 Wire Wire Line
 	9200 3550 8550 3550
 Wire Wire Line
@@ -1839,10 +1835,10 @@ $EndComp
 Wire Wire Line
 	1450 3050 1450 3200
 $Comp
-L lib_sch2:+Vusb #PWR?
+L lib_sch2:+Vusb #PWR0109
 U 1 1 5BE4C2B8
 P 2500 3700
-F 0 "#PWR?" H 2500 3550 50  0001 C CNN
+F 0 "#PWR0109" H 2500 3550 50  0001 C CNN
 F 1 "+Vusb" H 2500 3840 50  0000 C CNN
 F 2 "" H 2500 3700 50  0001 C CNN
 F 3 "" H 2500 3700 50  0001 C CNN
@@ -1850,14 +1846,18 @@ F 3 "" H 2500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lib_sch2:+Vusb #PWR?
+L lib_sch2:+Vusb #PWR0110
 U 1 1 5BE4C5AD
 P 1200 6400
-F 0 "#PWR?" H 1200 6250 50  0001 C CNN
+F 0 "#PWR0110" H 1200 6250 50  0001 C CNN
 F 1 "+Vusb" H 1200 6540 50  0000 C CNN
 F 2 "" H 1200 6400 50  0001 C CNN
 F 3 "" H 1200 6400 50  0001 C CNN
 	1    1200 6400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 3400 6700 3400
+Wire Wire Line
+	6050 3300 6700 3300
 $EndSCHEMATC

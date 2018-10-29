@@ -328,7 +328,7 @@ F 3 "" H 1000 2650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ht-001-rescue:+Vusb-lib_sch #PWR017
+L lib_sch2:+Vusb #PWR017
 U 1 1 5A3ED26C
 P 2000 1050
 F 0 "#PWR017" H 2000 900 50  0001 C CNN
@@ -342,17 +342,6 @@ Text Label 1600 1300 0    60   ~ 0
 D+
 Text Label 1600 1400 0    60   ~ 0
 D-
-$Comp
-L ht-001-rescue:+Vusb-lib_sch #PWR018
-U 1 1 5A3F054E
-P 2500 3700
-F 0 "#PWR018" H 2500 3550 50  0001 C CNN
-F 1 "+Vusb" H 2500 3840 50  0000 C CNN
-F 2 "" H 2500 3700 50  0001 C CNN
-F 3 "" H 2500 3700 50  0001 C CNN
-	1    2500 3700
-	1    0    0    -1  
-$EndComp
 Text Notes 3950 2800 0    60   ~ 12
 Gyro/Accelerometer
 NoConn ~ 7700 4350
@@ -963,17 +952,6 @@ F 7 "CAP CER 1UF 10V X5R 0402" H 900 7250 50  0001 C CNN "Description"
 F 8 "X5R, 6.3V, 20% or better" H 900 7250 50  0001 C CNN "Notes"
 F 9 "GRM153R60J105ME95D" H 900 7250 50  0001 C CNN "Alternate Part Number"
 	1    900  7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ht-001-rescue:+Vusb-lib_sch #PWR036
-U 1 1 5B6A3B43
-P 1200 6400
-F 0 "#PWR036" H 1200 6250 50  0001 C CNN
-F 1 "+Vusb" H 1200 6540 50  0000 C CNN
-F 2 "" H 1200 6400 50  0001 C CNN
-F 3 "" H 1200 6400 50  0001 C CNN
-	1    1200 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1860,4 +1838,26 @@ F 3 "" H 1450 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 3050 1450 3200
+$Comp
+L lib_sch2:+Vusb #PWR?
+U 1 1 5BE4C2B8
+P 2500 3700
+F 0 "#PWR?" H 2500 3550 50  0001 C CNN
+F 1 "+Vusb" H 2500 3840 50  0000 C CNN
+F 2 "" H 2500 3700 50  0001 C CNN
+F 3 "" H 2500 3700 50  0001 C CNN
+	1    2500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lib_sch2:+Vusb #PWR?
+U 1 1 5BE4C5AD
+P 1200 6400
+F 0 "#PWR?" H 1200 6250 50  0001 C CNN
+F 1 "+Vusb" H 1200 6540 50  0000 C CNN
+F 2 "" H 1200 6400 50  0001 C CNN
+F 3 "" H 1200 6400 50  0001 C CNN
+	1    1200 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
