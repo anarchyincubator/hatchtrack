@@ -90,7 +90,7 @@ U 1 1 5A344FA0
 P 1700 2950
 F 0 "U2" H 1800 3300 50  0000 C CNN
 F 1 "LP5912" H 1700 2800 50  0000 C CNN
-F 2 "manfangfp:WSON-6_2x2mm_Pitch0.65mm" H 1700 2950 50  0001 C CNN
+F 2 "packages_son:WSON-6_2x2mm_Pitch0.65mm" H 1700 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/lp5912" H 1700 2950 50  0001 C CNN
 F 4 "TI" H 1700 2950 60  0001 C CNN "Manufacturer"
 F 5 "LP5912-3.3DRVR" H 1700 2950 60  0001 C CNN "Part Number"
@@ -193,9 +193,9 @@ Text Label 4150 1750 0    60   ~ 0
 SCL
 Text Label 4150 1600 0    60   ~ 0
 SDA
-Text Label 8750 3450 0    60   ~ 0
+Text Label 6300 3200 0    60   ~ 0
 SCL
-Text Label 8750 3550 0    60   ~ 0
+Text Label 6300 3100 0    60   ~ 0
 SDA
 $Comp
 L power:PWR_FLAG #FLG09
@@ -263,7 +263,7 @@ U 1 1 5A385B00
 P 1900 1750
 F 0 "U4" H 2000 2100 50  0000 C CNN
 F 1 "TPD3E001" H 1900 1600 50  0000 C CNN
-F 2 "manfangfp:TPD3E001_USON_1.45mmx1mm" H 1900 1750 50  0001 C CNN
+F 2 "packages_son:TPD3E001_USON_1.45mmx1mm" H 1900 1750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd3e001.pdf" H 1900 1750 50  0001 C CNN
 F 4 "TI" H 1900 1750 60  0001 C CNN "Manufacturer"
 F 5 "TPD3E001DRLR" H 1900 1750 60  0001 C CNN "Part Number"
@@ -285,7 +285,7 @@ F 3 "" H 5450 2200 50  0001 C CNN
 	1    5450 2200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 3100
+NoConn ~ 8550 3550
 NoConn ~ 850  -400
 $Comp
 L hatchtrack:ESP32-WROOM-ESP32-footprints-Shem-Lib U7
@@ -382,7 +382,7 @@ Text Notes 9700 3650 0    39   ~ 0
 SPI boot mode pullup\n1 Normal\n0 UART boot
 Text Label 2250 4550 0    60   ~ 0
 BAT_STAT
-Text Label 6500 3400 2    60   ~ 0
+Text Label 9150 3650 2    60   ~ 0
 BAT_STAT
 $Comp
 L hatchtrack:CREE_LED_RGB-hatchtrack D3
@@ -461,7 +461,7 @@ Text Label 8950 5750 2    60   ~ 0
 MTDI
 NoConn ~ 8100 4350
 NoConn ~ 8550 3050
-NoConn ~ 6700 3200
+NoConn ~ 8550 3450
 NoConn ~ 6700 3300
 $Comp
 L hatchtrack:CONN_01X06-conn J3
@@ -890,7 +890,7 @@ $EndComp
 Wire Wire Line
 	3000 1100 3000 1050
 NoConn ~ 8550 2650
-NoConn ~ 8550 3650
+NoConn ~ 6700 3400
 $Comp
 L power:GND #PWR032
 U 1 1 5B68CB46
@@ -908,7 +908,7 @@ U 1 1 5B68FBE3
 P 3400 1400
 F 0 "J2" H 3400 1550 50  0000 C CNN
 F 1 "DNF" V 3500 1400 50  0001 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 3400 1400 50  0001 C CNN
+F 2 "wire_solder:SolderWirePad_2x_1mmDrill" H 3400 1400 50  0001 C CNN
 F 3 "" H 3400 1400 50  0001 C CNN
 F 4 "SOLDER PADS" H 3500 1250 50  0000 C CNN "Part Number"
 F 5 "DNF" H 3400 1400 50  0001 C CNN "fit_field"
@@ -1293,10 +1293,6 @@ Wire Wire Line
 Wire Wire Line
 	8550 3350 9200 3350
 Wire Wire Line
-	8550 3450 9200 3450
-Wire Wire Line
-	8550 3550 9200 3550
-Wire Wire Line
 	4000 4600 4450 4600
 Wire Wire Line
 	4450 4450 4450 4600
@@ -1311,8 +1307,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 3950 4000 3950
 Connection ~ 4300 1000
-Wire Wire Line
-	6050 3400 6700 3400
 Wire Wire Line
 	6050 3500 6700 3500
 Wire Wire Line
@@ -1796,4 +1790,62 @@ F 3 "" H 9700 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 3750 9700 3850
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BD7F904
+P 10150 5350
+F 0 "H1" H 10250 5396 50  0000 L CNN
+F 1 "DNF" H 10250 5305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10150 5350 50  0001 C CNN
+F 3 "~" H 10150 5350 50  0001 C CNN
+F 4 "mounting hole" H 10150 5350 50  0001 C CNN "Description"
+	1    10150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BD7FD66
+P 10550 5350
+F 0 "H3" H 10650 5396 50  0000 L CNN
+F 1 "DNF" H 10650 5305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10550 5350 50  0001 C CNN
+F 3 "~" H 10550 5350 50  0001 C CNN
+F 4 "mounting hole" H 10550 5350 50  0001 C CNN "Description"
+	1    10550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BD7FDEE
+P 10150 5600
+F 0 "H2" H 10250 5646 50  0000 L CNN
+F 1 "DNF" H 10250 5555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10150 5600 50  0001 C CNN
+F 3 "~" H 10150 5600 50  0001 C CNN
+F 4 "mounting hole" H 10150 5600 50  0001 C CNN "Description"
+	1    10150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BD7FE6A
+P 10550 5600
+F 0 "H4" H 10650 5646 50  0000 L CNN
+F 1 "DNF" H 10650 5555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10550 5600 50  0001 C CNN
+F 3 "~" H 10550 5600 50  0001 C CNN
+F 4 "mounting hole" H 10550 5600 50  0001 C CNN "Description"
+	1    10550 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3650 8550 3650
+Text Notes 7050 900  0    39   ~ 0
+Moved BAT_STAT from IO26 to IO4\nMoved SDA from IO17 to IO34\nMoved SCL from IO16 to IO35
+Text Notes 7050 650  0    39   ~ 8
+CHANGE LOG
+Wire Wire Line
+	6100 3100 6700 3100
+Wire Wire Line
+	6100 3200 6700 3200
 $EndSCHEMATC
