@@ -450,7 +450,7 @@ Text Label 9400 5750 2    60   ~ 0
 MTDI
 NoConn ~ 8100 4350
 NoConn ~ 8550 3050
-NoConn ~ 8550 3250
+NoConn ~ 6700 3600
 NoConn ~ 6700 3100
 $Comp
 L lib_sch2:CONN_01X06-conn J3
@@ -1993,8 +1993,8 @@ Wire Wire Line
 	7350 5800 7350 5850
 Text Label 8200 6050 0    50   ~ 0
 BEEP
-Wire Wire Line
-	6050 3600 6700 3600
-Text Label 6200 3600 0    50   ~ 0
+Text Label 8750 3250 0    50   ~ 0
 BEEP
+Wire Wire Line
+	9200 3250 8550 3250
 $EndSCHEMATC

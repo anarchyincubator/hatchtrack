@@ -1871,11 +1871,6 @@ F 4 "PUI Audio" H 7150 5300 50  0001 C CNN "Manufacturer"
 F 5 "SMT-0440-S-R" H 7150 5300 50  0001 C CNN "Part Number"
 F 6 "SMD_2x2mm" H 7150 5300 50  0001 C CNN "Package"
 F 7 "AUDIO MAGNETIC XDCR 2-4V SMD" H 7150 5300 50  0001 C CNN "Description"
-F 8 "SMT-0440-T-R" H 7150 5300 50  0001 L BNN "Field4"
-F 9 "Audio Indicator Transducer Electromagnetic 3Vpk 90mA Solder Pad 2Vpk 3500Hz to 4500Hz Surface Mount" H 7150 5300 50  0001 L BNN "Field5"
-F 10 "PUI Audio," H 7150 5300 50  0001 L BNN "Field6"
-F 11 "PUI Audio," H 7150 5300 50  0001 L BNN "Field7"
-F 12 "668-1489-1-ND" H 7150 5300 50  0001 L BNN "Field8"
 	1    7150 5300
 	1    0    0    -1  
 $EndComp
