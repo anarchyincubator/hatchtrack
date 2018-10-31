@@ -302,7 +302,7 @@ F 7 "WiFi/BT MCU" H 7650 3300 60  0001 C CNN "Description"
 	1    7650 3300
 	1    0    0    -1  
 $EndComp
-Text Label 6300 3500 2    60   ~ 0
+Text Label 6400 3500 2    60   ~ 0
 AINT
 NoConn ~ 7400 4350
 $Comp
@@ -432,47 +432,47 @@ LED_B
 NoConn ~ 7600 4350
 NoConn ~ 7500 4350
 NoConn ~ 7900 4350
-Text Label 6350 3800 2    60   ~ 0
+Text Label 6450 3800 2    60   ~ 0
 MTMS
-Text Label 6300 3900 2    60   ~ 0
+Text Label 6400 3900 2    60   ~ 0
 MTDI
 Text Label 7000 4550 0    60   ~ 0
 MTCK
 Text Label 7650 4550 0    60   ~ 0
 MTDO
-Text Label 9000 5950 2    60   ~ 0
+Text Label 9450 5950 2    60   ~ 0
 MTCK
-Text Label 9000 5850 2    60   ~ 0
+Text Label 9450 5850 2    60   ~ 0
 MTDO
-Text Label 9000 5650 2    60   ~ 0
+Text Label 9450 5650 2    60   ~ 0
 MTMS
-Text Label 8950 5750 2    60   ~ 0
+Text Label 9400 5750 2    60   ~ 0
 MTDI
 NoConn ~ 8100 4350
 NoConn ~ 8550 3050
-NoConn ~ 8550 3250
+NoConn ~ 6700 3600
 NoConn ~ 6700 3100
 $Comp
 L lib_sch2:CONN_01X06-conn J3
 U 1 1 5A513D20
-P 9450 5900
-F 0 "J3" H 9450 6250 50  0000 C CNN
-F 1 "DNF" V 9550 5900 50  0001 C CNN
-F 2 "lib_fp:Pin_Header_Straight_1x06_Pitch1.00mm" H 9450 5900 50  0001 C CNN
-F 3 "" H 9450 5900 50  0001 C CNN
-F 4 "PADS_01X06_THRU_1.0mm_pitch" H 9800 5500 50  0000 C CNN "Part Number"
-	1    9450 5900
+P 9900 5900
+F 0 "J3" H 9900 6250 50  0000 C CNN
+F 1 "DNF" V 10000 5900 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x06_Pitch1.00mm" H 9900 5900 50  0001 C CNN
+F 3 "" H 9900 5900 50  0001 C CNN
+F 4 "PADS_01X06_THRU_1.0mm_pitch" H 10250 5500 50  0000 C CNN "Part Number"
+	1    9900 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 5A5143A6
-P 9050 6200
-F 0 "#PWR022" H 9050 5950 50  0001 C CNN
-F 1 "GND" H 9050 6050 50  0000 C CNN
-F 2 "" H 9050 6200 50  0001 C CNN
-F 3 "" H 9050 6200 50  0001 C CNN
-	1    9050 6200
+P 9500 6200
+F 0 "#PWR022" H 9500 5950 50  0001 C CNN
+F 1 "GND" H 9500 6050 50  0000 C CNN
+F 2 "" H 9500 6200 50  0001 C CNN
+F 3 "" H 9500 6200 50  0001 C CNN
+	1    9500 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -626,12 +626,12 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR023
 U 1 1 5A5149F5
-P 9150 5550
-F 0 "#PWR023" H 9150 5400 50  0001 C CNN
-F 1 "+3V3" H 9150 5690 50  0000 C CNN
-F 2 "" H 9150 5550 50  0001 C CNN
-F 3 "" H 9150 5550 50  0001 C CNN
-	1    9150 5550
+P 9600 5550
+F 0 "#PWR023" H 9600 5400 50  0001 C CNN
+F 1 "+3V3" H 9600 5690 50  0000 C CNN
+F 2 "" H 9600 5550 50  0001 C CNN
+F 3 "" H 9600 5550 50  0001 C CNN
+	1    9600 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -782,7 +782,7 @@ U 1 1 5B4FC418
 P 6150 6350
 F 0 "Q1" H 6350 6400 50  0000 L CNN
 F 1 "SS8050" H 6350 6300 50  0000 L CNN
-F 2 "lib_fp:SOT-23-5" H 6350 6450 50  0001 C CNN
+F 2 "TO_SOT:SOT-23" H 6350 6450 50  0001 C CNN
 F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 6350 50  0001 C CNN
 F 4 "ComChip" H 6150 6350 60  0001 C CNN "Manufacturer"
 F 5 "SS8050-G" H 6150 6350 60  0001 C CNN "Part Number"
@@ -828,7 +828,6 @@ Connection ~ 6200 2800
 Text Label 8750 3750 0    60   ~ 0
 IO0
 NoConn ~ 8550 2950
-NoConn ~ 6700 3600
 NoConn ~ 6700 3700
 Wire Wire Line
 	3600 3200 3350 3200
@@ -1036,21 +1035,21 @@ Wire Wire Line
 Wire Wire Line
 	10050 1350 10550 1350
 Wire Wire Line
-	8700 5650 9250 5650
+	9150 5650 9700 5650
 Wire Wire Line
-	8700 5750 9250 5750
+	9150 5750 9700 5750
 Wire Wire Line
-	8700 5850 9250 5850
+	9150 5850 9700 5850
 Wire Wire Line
-	8700 5950 9250 5950
+	9150 5950 9700 5950
 Wire Wire Line
-	9150 5550 9150 6150
+	9600 5550 9600 6150
 Wire Wire Line
-	9150 6150 9250 6150
+	9600 6150 9700 6150
 Wire Wire Line
-	9050 6200 9050 6050
+	9500 6200 9500 6050
 Wire Wire Line
-	9050 6050 9250 6050
+	9500 6050 9700 6050
 Connection ~ 3000 1650
 Wire Wire Line
 	2350 2600 2350 2750
@@ -1707,7 +1706,7 @@ U 1 1 5C4E294E
 P 6150 7000
 F 0 "Q2" H 6350 7050 50  0000 L CNN
 F 1 "SS8050" H 6350 6950 50  0000 L CNN
-F 2 "lib_fp:SOT-23-5" H 6350 7100 50  0001 C CNN
+F 2 "TO_SOT:SOT-23" H 6350 7100 50  0001 C CNN
 F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 6150 7000 50  0001 C CNN
 F 4 "ComChip" H 6150 7000 60  0001 C CNN "Manufacturer"
 F 5 "SS8050-G" H 6150 7000 60  0001 C CNN "Part Number"
@@ -1766,49 +1765,49 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5BD7F904
-P 10150 5350
-F 0 "H1" H 10250 5396 50  0000 L CNN
-F 1 "DNF" H 10250 5305 50  0000 L CNN
-F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10150 5350 50  0001 C CNN
-F 3 "~" H 10150 5350 50  0001 C CNN
-F 4 "mounting hole" H 10150 5350 50  0001 C CNN "Description"
-	1    10150 5350
+P 10400 5750
+F 0 "H1" H 10500 5796 50  0000 L CNN
+F 1 "DNF" H 10500 5705 50  0000 L CNN
+F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10400 5750 50  0001 C CNN
+F 3 "~" H 10400 5750 50  0001 C CNN
+F 4 "mounting hole" H 10400 5750 50  0001 C CNN "Description"
+	1    10400 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5BD7FD66
-P 10550 5350
-F 0 "H3" H 10650 5396 50  0000 L CNN
-F 1 "DNF" H 10650 5305 50  0000 L CNN
-F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10550 5350 50  0001 C CNN
-F 3 "~" H 10550 5350 50  0001 C CNN
-F 4 "mounting hole" H 10550 5350 50  0001 C CNN "Description"
-	1    10550 5350
+P 10800 5750
+F 0 "H3" H 10900 5796 50  0000 L CNN
+F 1 "DNF" H 10900 5705 50  0000 L CNN
+F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10800 5750 50  0001 C CNN
+F 3 "~" H 10800 5750 50  0001 C CNN
+F 4 "mounting hole" H 10800 5750 50  0001 C CNN "Description"
+	1    10800 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5BD7FDEE
-P 10150 5600
-F 0 "H2" H 10250 5646 50  0000 L CNN
-F 1 "DNF" H 10250 5555 50  0000 L CNN
-F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10150 5600 50  0001 C CNN
-F 3 "~" H 10150 5600 50  0001 C CNN
-F 4 "mounting hole" H 10150 5600 50  0001 C CNN "Description"
-	1    10150 5600
+P 10400 6000
+F 0 "H2" H 10500 6046 50  0000 L CNN
+F 1 "DNF" H 10500 5955 50  0000 L CNN
+F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10400 6000 50  0001 C CNN
+F 3 "~" H 10400 6000 50  0001 C CNN
+F 4 "mounting hole" H 10400 6000 50  0001 C CNN "Description"
+	1    10400 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5BD7FE6A
-P 10550 5600
-F 0 "H4" H 10650 5646 50  0000 L CNN
-F 1 "DNF" H 10650 5555 50  0000 L CNN
-F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10550 5600 50  0001 C CNN
-F 3 "~" H 10550 5600 50  0001 C CNN
-F 4 "mounting hole" H 10550 5600 50  0001 C CNN "Description"
-	1    10550 5600
+P 10800 6000
+F 0 "H4" H 10900 6046 50  0000 L CNN
+F 1 "DNF" H 10900 5955 50  0000 L CNN
+F 2 "lib_fp:MountingHole_2.7mm_M2.5_ISO7380_Pad" H 10800 6000 50  0001 C CNN
+F 3 "~" H 10800 6000 50  0001 C CNN
+F 4 "mounting hole" H 10800 6000 50  0001 C CNN "Description"
+	1    10800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1860,4 +1859,142 @@ Wire Wire Line
 	6050 3400 6700 3400
 Wire Wire Line
 	6050 3300 6700 3300
+$Comp
+L pui_audio:SMT-0440-T-R LS1
+U 1 1 5BDBAC6A
+P 7150 5300
+F 0 "LS1" H 6950 5650 50  0000 C CNN
+F 1 "SMT-0440-S-R" H 6950 5550 50  0000 C CNN
+F 2 "pui_audio:XDCR_SMT-0440-T-R" H 7150 5300 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/pui-audio-inc/SMT-0440-T-R/668-1489-1-ND/5113610?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7150 5300 50  0001 L BNN
+F 4 "PUI Audio" H 7150 5300 50  0001 C CNN "Manufacturer"
+F 5 "SMT-0440-S-R" H 7150 5300 50  0001 C CNN "Part Number"
+F 6 "SMD_2x2mm" H 7150 5300 50  0001 C CNN "Package"
+F 7 "AUDIO MAGNETIC XDCR 2-4V SMD" H 7150 5300 50  0001 C CNN "Description"
+F 8 "SMT-0440-T-R" H 7150 5300 50  0001 L BNN "Field4"
+F 9 "Audio Indicator Transducer Electromagnetic 3Vpk 90mA Solder Pad 2Vpk 3500Hz to 4500Hz Surface Mount" H 7150 5300 50  0001 L BNN "Field5"
+F 10 "PUI Audio," H 7150 5300 50  0001 L BNN "Field6"
+F 11 "PUI Audio," H 7150 5300 50  0001 L BNN "Field7"
+F 12 "668-1489-1-ND" H 7150 5300 50  0001 L BNN "Field8"
+	1    7150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q3
+U 1 1 5BDBB7CC
+P 7450 6050
+F 0 "Q3" H 7650 6100 50  0000 L CNN
+F 1 "SS8050" H 7650 6000 50  0000 L CNN
+F 2 "TO_SOT:SOT-23" H 7650 6150 50  0001 C CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 7450 6050 50  0001 C CNN
+F 4 "ComChip" H 7450 6050 60  0001 C CNN "Manufacturer"
+F 5 "SS8050-G" H 7450 6050 60  0001 C CNN "Part Number"
+F 6 "SOT-23" H 7450 6050 50  0001 C CNN "Package"
+F 7 "NPN TRANSISTOR 1.5A 40V SOT-23 R" H 7450 6050 50  0001 C CNN "Description"
+	1    7450 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5BDCA673
+P 7350 6300
+F 0 "#PWR010" H 7350 6050 50  0001 C CNN
+F 1 "GND" H 7350 6150 50  0000 C CNN
+F 2 "" H 7350 6300 50  0001 C CNN
+F 3 "" H 7350 6300 50  0001 C CNN
+	1    7350 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6250 7350 6300
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5BDD9261
+P 7350 4950
+F 0 "#PWR09" H 7350 4800 50  0001 C CNN
+F 1 "+3V3" H 7350 5090 50  0000 C CNN
+F 2 "" H 7350 4950 50  0001 C CNN
+F 3 "" H 7350 4950 50  0001 C CNN
+	1    7350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5BDE8207
+P 7900 6050
+F 0 "R15" V 7980 6050 50  0000 C CNN
+F 1 "100" V 7900 6050 50  0000 C CNN
+F 2 "lib_fp:R_0402" V 7830 6050 50  0001 C CNN
+F 3 "" H 7900 6050 50  0001 C CNN
+F 4 "Panasonic" H 7900 6050 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1000X" H 7900 6050 50  0001 C CNN "Part Number"
+F 6 "R0402" H 7900 6050 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 7900 6050 50  0001 C CNN "Description"
+F 8 "5% or better" H -2100 1650 50  0001 C CNN "Notes"
+F 9 "CRCW0402100RFKED" H 7900 6050 50  0001 C CNN "Alternate Part Number"
+	1    7900 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 6050 7650 6050
+Wire Wire Line
+	8500 6050 8050 6050
+Wire Wire Line
+	7350 5400 7350 5450
+$Comp
+L Device:D_Schottky D4
+U 1 1 5BE51BF4
+P 7550 5250
+F 0 "D4" H 7550 5350 50  0000 C CNN
+F 1 "BAT-165" H 7550 5150 50  0000 C CNN
+F 2 "lib_fp:D_SOD-323" H 7550 5250 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/bat165series.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113df01f69804d6" H 7550 5250 50  0001 C CNN
+F 4 "Infineon" H 7550 5250 50  0001 C CNN "Manufacturer"
+F 5 "BAT165E6327HTSA1" H 7550 5250 50  0001 C CNN "Part Number"
+F 6 "SOD-323" H 7550 5250 50  0001 C CNN "Package"
+F 7 "DIODE SCHOTTKY 40V 750MA SOD323" H 7550 5250 50  0001 C CNN "Description"
+	1    7550 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 5450 7350 5450
+Connection ~ 7350 5450
+Wire Wire Line
+	7350 5450 7350 5500
+Wire Wire Line
+	7350 4950 7350 5000
+Wire Wire Line
+	7350 5000 7550 5000
+Wire Wire Line
+	7550 5000 7550 5100
+Connection ~ 7350 5000
+Wire Wire Line
+	7350 5000 7350 5200
+Wire Wire Line
+	7550 5400 7550 5450
+$Comp
+L Device:R R14
+U 1 1 5BEAEAAD
+P 7350 5650
+F 0 "R14" V 7250 5650 50  0000 C CNN
+F 1 "0" V 7350 5650 50  0000 C CNN
+F 2 "lib_fp:R_0402" V 7280 5650 50  0001 C CNN
+F 3 "" H 7350 5650 50  0001 C CNN
+F 4 "Panasonic" H 7350 5650 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2GE0R00X" H 7350 5650 50  0001 C CNN "Part Number"
+F 6 "R0402" H 7350 5650 50  0001 C CNN "Package"
+F 7 "RES SMD 0 OHM JUMPER 1/10W 0402" H 7350 5650 50  0001 C CNN "Description"
+F 8 "or equivalent" H 7350 5650 50  0001 C CNN "Notes"
+F 9 "RMCF0402ZT0R00" H 7350 5650 50  0001 C CNN "Alternate Part Number"
+	1    7350 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 5800 7350 5850
+Text Label 8200 6050 0    50   ~ 0
+BEEP
+Text Label 8750 3250 0    50   ~ 0
+BEEP
+Wire Wire Line
+	9200 3250 8550 3250
 $EndSCHEMATC
