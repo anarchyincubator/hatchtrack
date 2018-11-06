@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ht-001-rescue)(type Legacy)(uri ${KIPRJMOD}/ht-001-rescue.lib)(options "")(descr ""))
   (lib (name lib_sch2)(type Legacy)(uri ${KIPRJMOD}/lib_sch/lib_sch2.lib)(options "")(descr ""))
+  (lib (name prj_sch)(type Legacy)(uri ${KIPRJMOD}/lib_sch/prj_sch.lib)(options "")(descr ""))
 )

@@ -2,7 +2,7 @@ Component,Description,References,Value,Quantity Per PCB,Part Number,Notes,Manufa
 1,CAP CER 0402 X5R 0.1UF 10V,C4 C8 C10 C12 C13 C14 C15,0.1uF,7,GRM155R61C104KA88D,"X5R, 6.3V, 20% or better",Murata
 2,CAP CER 1UF 10V X5R 0402,C3 C5 C6,1uF,3,CC0402KRX5R6BB105,"X5R, 6.3V, 20% or better",Yageo
 3,CAP CER 0402 4.7UF X5R 10V,C1 C2 C7 C9 C11 C16,4.7uF,6,GRM155R61A475MEAAD,"X5R, 10V, 20% or better",Murata
-4,DIODE SCHOTTKY 40V 750MA SOD323,D1 D4,BAT-165,2,BAT165E6327HTSA1,,Infineon
+4,DIODE SCHOTTKY 40V 750MA SOD323,D1 D4 D5,BAT-165,3,BAT165E6327HTSA1,,Infineon
 5,LED RGB DIFFUSED 4PLCC SMD,D3,CREE_LED_RGB,1,CLV1L-FKB-CHMMQEHBB7673673,,Cree
 6,LED GREEN CLEAR CHIP SMD,D2,LED,1,APHHS1005CGCK,,Kingbright
 7,Micro USB Rcpt,J1,USB_A,1,1054431101,,Molex
@@ -27,12 +27,12 @@ Component,Description,References,Value,Quantity Per PCB,Part Number,Notes,Manufa
 
 
 Component Groups:,24
-Component Count:,50
-Fitted Components:,48
+Component Count:,51
+Fitted Components:,49
 Number of PCBs:,1
-Total components:,48
+Total components:,49
 Schematic Version:,02
 Schematic Date:,2017-12-16
-BoM Date:,Wed 31 Oct 2018 03:18:03 PM CDT
+BoM Date:,Tue 06 Nov 2018 04:52:39 PM CST
 Schematic Source:,/home/bsmith/kicad/projects/hatchtrack/ht-001.sch
 KiCad Version:,Eeschema 5.0.1-33cea8e~68~ubuntu16.04.1
