@@ -1828,7 +1828,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3300 6700 3300
 $Comp
-L pui_audio:SMT-0440-T-R LS1
+L ht-001-rescue:SMT-0440-T-R-pui_audio LS1
 U 1 1 5BDBAC6A
 P 7150 5300
 F 0 "LS1" H 6950 5650 50  0000 C CNN
