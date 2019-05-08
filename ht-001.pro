@@ -1,4 +1,4 @@
-update=Wed 31 Oct 2018 03:16:02 PM CDT
+update=5/7/2019 10:25:55 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=ship/rev02/
+PlotDirectoryName=ship/rev03/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

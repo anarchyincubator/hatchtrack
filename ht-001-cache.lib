@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
+# Device:C
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF Device:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_Schottky
+# Device:D_Schottky
 #
-DEF Device_D_Schottky D 0 40 N N 1 F N
+DEF Device:D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F1 "Device:D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Device:LED
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Device:LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +64,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Q_NPN_BCE
+# Device:Q_NPN_BCE
 #
-DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF Device:Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device_Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "Device:Q_NPN_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -83,11 +83,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +100,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_USB_CP2102N-A01-GQFN24
+# Interface_USB:CP2102N-A01-GQFN24
 #
-DEF Interface_USB_CP2102N-A01-GQFN24 U 0 40 Y Y 1 F N
+DEF Interface_USB:CP2102N-A01-GQFN24 U 0 40 Y Y 1 F N
 F0 "U" -200 875 50 H V R CNN
-F1 "Interface_USB_CP2102N-A01-GQFN24" -200 800 50 H V R CNN
+F1 "Interface_USB:CP2102N-A01-GQFN24" -200 800 50 H V R CNN
 F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 450 -800 50 H I L CNN
 F3 "" 50 -1050 50 H I C CNN
 $FPLIST
@@ -140,11 +140,11 @@ X ~RSTb 9 -600 600 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Mechanical_MountingHole
+# Mechanical:MountingHole
 #
-DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
-F0 "H" 0 200 50 H V C CNN
-F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+DEF Mechanical:MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +155,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Switch:SW_Push
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF Switch:SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "Switch:SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -172,11 +172,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_+Vbat
+# lib_sch2:+Vbat
 #
-DEF lib_sch2_+Vbat #PWR 0 0 Y Y 1 F P
+DEF lib_sch2:+Vbat #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lib_sch2_+Vbat" 0 140 50 H V C CNN
+F1 "lib_sch2:+Vbat" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -187,11 +187,11 @@ X +Vbat 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_+Vusb
+# lib_sch2:+Vusb
 #
-DEF lib_sch2_+Vusb #PWR 0 0 Y Y 1 F P
+DEF lib_sch2:+Vusb #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lib_sch2_+Vusb" 0 140 50 H V C CNN
+F1 "lib_sch2:+Vusb" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -202,11 +202,11 @@ X +Vusb 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_BME680-lib_sch
+# lib_sch2:BME680-lib_sch
 #
-DEF lib_sch2_BME680-lib_sch U 0 40 Y Y 1 F N
+DEF lib_sch2:BME680-lib_sch U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "lib_sch2_BME680-lib_sch" 250 -400 50 H V C CNN
+F1 "lib_sch2:BME680-lib_sch" 250 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -229,11 +229,11 @@ X Vdd 8 400 -250 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_CONN_01X02-conn-lib_sch
+# lib_sch2:CONN_01X02-conn-lib_sch
 #
-DEF lib_sch2_CONN_01X02-conn-lib_sch J 0 40 Y N 1 F N
+DEF lib_sch2:CONN_01X02-conn-lib_sch J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "lib_sch2_CONN_01X02-conn-lib_sch" 100 0 50 V V C CNN
+F1 "lib_sch2:CONN_01X02-conn-lib_sch" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -251,11 +251,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_CONN_01X06-conn
+# lib_sch2:CONN_01X06-conn
 #
-DEF lib_sch2_CONN_01X06-conn J 0 40 Y N 1 F N
+DEF lib_sch2:CONN_01X06-conn J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "lib_sch2_CONN_01X06-conn" 100 0 50 V V C CNN
+F1 "lib_sch2:CONN_01X06-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -281,11 +281,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_CREE_LED_RGB-hatchtrack
+# lib_sch2:CREE_LED_RGB-hatchtrack
 #
-DEF lib_sch2_CREE_LED_RGB-hatchtrack D 0 0 Y N 1 F N
+DEF lib_sch2:CREE_LED_RGB-hatchtrack D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "lib_sch2_CREE_LED_RGB-hatchtrack" 0 -350 50 H V C CNN
+F1 "lib_sch2:CREE_LED_RGB-hatchtrack" 0 -350 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -318,11 +318,11 @@ X R 4 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib
+# lib_sch2:ESP32-WROOM-ESP32-footprints-Shem-Lib
 #
-DEF lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib U 0 40 Y Y 1 F N
+DEF lib_sch2:ESP32-WROOM-ESP32-footprints-Shem-Lib U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "lib_sch2_ESP32-WROOM-ESP32-footprints-Shem-Lib" 500 1250 60 H V C CNN
+F1 "lib_sch2:ESP32-WROOM-ESP32-footprints-Shem-Lib" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -370,11 +370,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_ICM20602-hatchtrack
+# lib_sch2:ICM20602-hatchtrack
 #
-DEF lib_sch2_ICM20602-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2:ICM20602-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" 420 -60 50 H V C CNN
-F1 "lib_sch2_ICM20602-hatchtrack" 690 -60 50 H V C CNN
+F1 "lib_sch2:ICM20602-hatchtrack" 690 -60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -405,11 +405,11 @@ X RESV 9 700 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_LP5912-hatchtrack
+# lib_sch2:LP5912-hatchtrack
 #
-DEF lib_sch2_LP5912-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2:LP5912-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "lib_sch2_LP5912-hatchtrack" 0 -250 50 H V C CNN
+F1 "lib_sch2:LP5912-hatchtrack" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -431,11 +431,11 @@ X EPAD 7 250 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_MCP73831-hatchtrack
+# lib_sch2:MCP73831-hatchtrack
 #
-DEF lib_sch2_MCP73831-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2:MCP73831-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "lib_sch2_MCP73831-hatchtrack" 250 -350 50 H V C CNN
+F1 "lib_sch2:MCP73831-hatchtrack" 250 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -455,11 +455,11 @@ X PROG 5 400 -150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_TPD3E001-hatchtrack
+# lib_sch2:TPD3E001-hatchtrack
 #
-DEF lib_sch2_TPD3E001-hatchtrack U 0 40 Y Y 1 F N
+DEF lib_sch2:TPD3E001-hatchtrack U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "lib_sch2_TPD3E001-hatchtrack" 50 -200 50 H V C CNN
+F1 "lib_sch2:TPD3E001-hatchtrack" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -480,11 +480,11 @@ X Vcc 6 250 200 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lib_sch2_USB_A-conn
+# lib_sch2:USB_A-conn
 #
-DEF lib_sch2_USB_A-conn J 0 40 Y Y 1 F N
+DEF lib_sch2:USB_A-conn J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "lib_sch2_USB_A-conn" -200 350 50 H V L CNN
+F1 "lib_sch2:USB_A-conn" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -513,11 +513,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+3V3
+# power:+3V3
 #
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+DEF power:+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
+F1 "power:+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -529,11 +529,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -542,39 +542,16 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power:PWR_FLAG
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# pui_audio_SMT-0440-T-R
-#
-DEF pui_audio_SMT-0440-T-R LS 0 40 Y Y 1 L N
-F0 "LS" -200 200 50 H V L BNN
-F1 "pui_audio_SMT-0440-T-R" -200 -300 50 H V L BNN
-F2 "XDCR_SMT-0440-T-R" 0 0 50 H I L BNN
-F3 "https://www.digikey.com/product-detail/en/pui-audio-inc/SMT-0440-T-R/668-1489-1-ND/5113610?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
-F4 "SMT-0440-T-R" 0 0 50 H I L BNN
-F5 "Audio Indicator Transducer Electromagnetic 3Vpk 90mA Solder Pad 2Vpk 3500Hz to 4500Hz Surface Mount" 0 0 50 H I L BNN
-F6 "PUI Audio," 0 0 50 H I L BNN
-F7 "PUI Audio," 0 0 50 H I L BNN
-F8 "668-1489-1-ND" 0 0 50 H I L BNN
-DRAW
-A -200 0 200 -901 900 0 0 10 N -200 200 -200 -200
-P 2 0 0 10 -200 200 -200 -200 N
-P 2 0 0 10 -26 100 -26 100 N
-P 2 0 0 10 0 -100 -26 -100 N
-P 2 0 0 10 0 100 -26 100 N
-X 1 1 200 100 200 L 40 40 0 0 P
-X 2 2 200 -100 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

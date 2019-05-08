@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Hatchtrack"
 Date "2017-12-16"
-Rev "02"
+Rev "03"
 Comp "Widgt, LLC"
 Comment1 ""
 Comment2 ""
@@ -292,8 +292,8 @@ L lib_sch2:ESP32-WROOM-ESP32-footprints-Shem-Lib U7
 U 1 1 5A330009
 P 7650 3300
 F 0 "U7" H 6950 4550 60  0000 C CNN
-F 1 "ESP32-WROOM" H 8150 4550 60  0000 C CNN
-F 2 "lib_fp:ESP32-WROOM" H 8000 4650 60  0001 C CNN
+F 1 "ESP32-WROOM-32U (8M)" H 8150 4550 60  0000 C CNN
+F 2 "lib_fp:ESP32-WROOM-32U" H 8000 4650 60  0001 C CNN
 F 3 "http://espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf" H 7200 3750 60  0001 C CNN
 F 4 "ESPRESSIF" H 7650 3300 60  0001 C CNN "Manufacturer"
 F 5 "ESP32-WROOM-32" H 7650 3300 60  0001 C CNN "Part Number"
@@ -367,7 +367,7 @@ F 3 "" H 5600 2650 50  0001 C CNN
 	1    5600 2650
 	1    0    0    -1  
 $EndComp
-Text Notes 9700 3650 0    39   ~ 0
+Text Notes 10200 4600 0    39   ~ 0
 SPI boot mode pullup\n1 Normal\n0 UART boot
 Text Label 4900 1650 0    60   ~ 0
 BAT_STAT
@@ -450,7 +450,6 @@ Text Label 9400 5750 2    60   ~ 0
 MTDI
 NoConn ~ 8100 4350
 NoConn ~ 8550 3050
-NoConn ~ 6700 3600
 NoConn ~ 6700 3100
 $Comp
 L lib_sch2:CONN_01X06-conn J3
@@ -824,8 +823,6 @@ DTR RTS -> EN IO0\n1      1     1    1\n0      0     0    0\n1      0     0    1
 Text Label 6400 2800 2    60   ~ 0
 EN
 Connection ~ 6200 2800
-Text Label 8750 3750 0    60   ~ 0
-IO0
 NoConn ~ 8550 2950
 NoConn ~ 6700 3700
 Wire Wire Line
@@ -1702,34 +1699,32 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5C73595D
-P 9500 3750
-F 0 "SW1" H 9500 4035 50  0000 C CNN
-F 1 "SW_Push" H 9500 3944 50  0000 C CNN
-F 2 "lib_fp:CK_SW_PUSH_FP11SPA1B1TP00" H 9500 3950 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1401/fp.pdf" H 9500 3950 50  0001 C CNN
-F 4 "C&K" H 9500 3750 50  0001 C CNN "Manufacturer"
-F 5 "FP11SPA1B1TP00" H 9500 3750 50  0001 C CNN "Part Number"
-F 6 "Pushbutton Switch SPST-NO Standard Through Hole, Right Angle" H 9500 3750 50  0001 C CNN "Description"
-	1    9500 3750
+P 10000 4700
+F 0 "SW1" H 10000 4985 50  0000 C CNN
+F 1 "SW_Push" H 10000 4894 50  0000 C CNN
+F 2 "lib_fp:ButtonPads" H 10000 4900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1401/fp.pdf" H 10000 4900 50  0001 C CNN
+F 4 "C&K" H 10000 4700 50  0001 C CNN "Manufacturer"
+F 5 "FP11SPA1B1TP00" H 10000 4700 50  0001 C CNN "Part Number"
+F 6 "Pushbutton Switch SPST-NO Standard Through Hole, Right Angle" H 10000 4700 50  0001 C CNN "Description"
+	1    10000 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8550 3850 8550 3950
-Wire Wire Line
-	8550 3750 9300 3750
 $Comp
 L power:GND #PWR0107
 U 1 1 5C7623E1
-P 9700 3850
-F 0 "#PWR0107" H 9700 3600 50  0001 C CNN
-F 1 "GND" H 9700 3700 50  0000 C CNN
-F 2 "" H 9700 3850 50  0001 C CNN
-F 3 "" H 9700 3850 50  0001 C CNN
-	1    9700 3850
+P 10200 4800
+F 0 "#PWR0107" H 10200 4550 50  0001 C CNN
+F 1 "GND" H 10200 4650 50  0000 C CNN
+F 2 "" H 10200 4800 50  0001 C CNN
+F 3 "" H 10200 4800 50  0001 C CNN
+	1    10200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 3750 9700 3850
+	10200 4700 10200 4800
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5BD7F904
@@ -1780,8 +1775,6 @@ F 4 "mounting hole" H 10800 6000 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	9200 3650 8550 3650
-Text Notes 7050 1050 0    39   ~ 0
-Moved BAT_STAT from IO26 to IO4\nMoved SDA from IO17 to IO32\nMoved SCL from IO16 to IO33\nMove LED_B from IO19 to IO16\nMoved LED_G from IO18 to IO17
 Text Notes 7050 650  0    39   ~ 8
 CHANGE LOG
 Wire Wire Line
@@ -1827,139 +1820,6 @@ Wire Wire Line
 	6050 3400 6700 3400
 Wire Wire Line
 	6050 3300 6700 3300
-$Comp
-L pui_audio:SMT-0440-T-R LS1
-U 1 1 5BDBAC6A
-P 7150 5300
-F 0 "LS1" H 6950 5650 50  0000 C CNN
-F 1 "SMT-0440-S-R" H 6950 5550 50  0000 C CNN
-F 2 "pui_audio:XDCR_SMT-0440-T-R" H 7150 5300 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/pui-audio-inc/SMT-0440-T-R/668-1489-1-ND/5113610?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 7150 5300 50  0001 L BNN
-F 4 "PUI Audio" H 7150 5300 50  0001 C CNN "Manufacturer"
-F 5 "SMT-0440-S-R" H 7150 5300 50  0001 C CNN "Part Number"
-F 6 "SMD_2x2mm" H 7150 5300 50  0001 C CNN "Package"
-F 7 "AUDIO MAGNETIC XDCR 2-4V SMD" H 7150 5300 50  0001 C CNN "Description"
-	1    7150 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BCE Q3
-U 1 1 5BDBB7CC
-P 7450 6050
-F 0 "Q3" H 7650 6100 50  0000 L CNN
-F 1 "SS8050" H 7650 6000 50  0000 L CNN
-F 2 "TO_SOT:SOT-23" H 7650 6150 50  0001 C CNN
-F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 7450 6050 50  0001 C CNN
-F 4 "ComChip" H 7450 6050 60  0001 C CNN "Manufacturer"
-F 5 "SS8050-G" H 7450 6050 60  0001 C CNN "Part Number"
-F 6 "SOT-23" H 7450 6050 50  0001 C CNN "Package"
-F 7 "NPN TRANSISTOR 1.5A 40V SOT-23 R" H 7450 6050 50  0001 C CNN "Description"
-	1    7450 6050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5BDCA673
-P 7350 6300
-F 0 "#PWR010" H 7350 6050 50  0001 C CNN
-F 1 "GND" H 7350 6150 50  0000 C CNN
-F 2 "" H 7350 6300 50  0001 C CNN
-F 3 "" H 7350 6300 50  0001 C CNN
-	1    7350 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 6250 7350 6300
-$Comp
-L power:+3V3 #PWR09
-U 1 1 5BDD9261
-P 7350 4950
-F 0 "#PWR09" H 7350 4800 50  0001 C CNN
-F 1 "+3V3" H 7350 5090 50  0000 C CNN
-F 2 "" H 7350 4950 50  0001 C CNN
-F 3 "" H 7350 4950 50  0001 C CNN
-	1    7350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5BDE8207
-P 7900 6050
-F 0 "R15" V 7980 6050 50  0000 C CNN
-F 1 "100" V 7900 6050 50  0000 C CNN
-F 2 "lib_fp:R_0402" V 7830 6050 50  0001 C CNN
-F 3 "" H 7900 6050 50  0001 C CNN
-F 4 "Panasonic" H 7900 6050 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1000X" H 7900 6050 50  0001 C CNN "Part Number"
-F 6 "R0402" H 7900 6050 50  0001 C CNN "Package"
-F 7 "RES 0402 10K 1%" H 7900 6050 50  0001 C CNN "Description"
-F 8 "5% or better" H -2100 1650 50  0001 C CNN "Notes"
-F 9 "CRCW0402100RFKED" H 7900 6050 50  0001 C CNN "Alternate Part Number"
-	1    7900 6050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7750 6050 7650 6050
-Wire Wire Line
-	8500 6050 8050 6050
-Wire Wire Line
-	7350 5400 7350 5450
-$Comp
-L Device:D_Schottky D4
-U 1 1 5BE51BF4
-P 7550 5250
-F 0 "D4" H 7550 5350 50  0000 C CNN
-F 1 "BAT-165" H 7550 5150 50  0000 C CNN
-F 2 "lib_fp:D_SOD-323" H 7550 5250 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/bat165series.pdf?folderId=db3a304313d846880113def5812204a1&fileId=db3a304313d846880113df01f69804d6" H 7550 5250 50  0001 C CNN
-F 4 "Infineon" H 7550 5250 50  0001 C CNN "Manufacturer"
-F 5 "BAT165E6327HTSA1" H 7550 5250 50  0001 C CNN "Part Number"
-F 6 "SOD-323" H 7550 5250 50  0001 C CNN "Package"
-F 7 "DIODE SCHOTTKY 40V 750MA SOD323" H 7550 5250 50  0001 C CNN "Description"
-	1    7550 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7550 5450 7350 5450
-Connection ~ 7350 5450
-Wire Wire Line
-	7350 5450 7350 5500
-Wire Wire Line
-	7350 4950 7350 5000
-Wire Wire Line
-	7350 5000 7550 5000
-Wire Wire Line
-	7550 5000 7550 5100
-Connection ~ 7350 5000
-Wire Wire Line
-	7350 5000 7350 5200
-Wire Wire Line
-	7550 5400 7550 5450
-$Comp
-L Device:R R14
-U 1 1 5BEAEAAD
-P 7350 5650
-F 0 "R14" V 7250 5650 50  0000 C CNN
-F 1 "0" V 7350 5650 50  0000 C CNN
-F 2 "lib_fp:R_0402" V 7280 5650 50  0001 C CNN
-F 3 "" H 7350 5650 50  0001 C CNN
-F 4 "Panasonic" H 7350 5650 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2GE0R00X" H 7350 5650 50  0001 C CNN "Part Number"
-F 6 "R0402" H 7350 5650 50  0001 C CNN "Package"
-F 7 "RES SMD 0 OHM JUMPER 1/10W 0402" H 7350 5650 50  0001 C CNN "Description"
-F 8 "or equivalent" H 7350 5650 50  0001 C CNN "Notes"
-F 9 "RMCF0402ZT0R00" H 7350 5650 50  0001 C CNN "Alternate Part Number"
-	1    7350 5650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7350 5800 7350 5850
-Text Label 8200 6050 0    50   ~ 0
-BEEP
-Text Label 8750 3250 0    50   ~ 0
-BEEP
-Wire Wire Line
-	9200 3250 8550 3250
 Wire Wire Line
 	3250 1100 3250 1400
 Wire Wire Line
@@ -2009,4 +1869,54 @@ Wire Wire Line
 Connection ~ 2300 1100
 Wire Wire Line
 	3250 1700 3250 1800
+Wire Wire Line
+	9550 4700 9750 4700
+Text Label 9550 4700 0    50   ~ 0
+BT1
+Wire Wire Line
+	6050 3600 6700 3600
+Text Label 6200 3600 0    50   ~ 0
+BT1
+Wire Wire Line
+	9200 3750 8550 3750
+Text Label 8750 3750 0    50   ~ 0
+IO0
+NoConn ~ 8550 3250
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5CD39B87
+P 9750 4050
+F 0 "#PWR09" H 9750 3900 50  0001 C CNN
+F 1 "+3V3" H 9750 4190 50  0000 C CNN
+F 2 "" H 9750 4050 50  0001 C CNN
+F 3 "" H 9750 4050 50  0001 C CNN
+	1    9750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4050 9750 4150
+Wire Wire Line
+	9750 4450 9750 4700
+Connection ~ 9750 4700
+Wire Wire Line
+	9750 4700 9800 4700
+$Comp
+L Device:R R14
+U 1 1 5CD57FCB
+P 9750 4300
+F 0 "R14" H 9650 4300 50  0000 C CNN
+F 1 "10K" V 9750 4300 50  0000 C CNN
+F 2 "lib_fp:R_0402" V 9680 4300 50  0001 C CNN
+F 3 "" H 9750 4300 50  0001 C CNN
+F 4 "Panasonic" H 9750 4300 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1002X" H 9750 4300 50  0001 C CNN "Part Number"
+F 6 "R0402" H 9750 4300 50  0001 C CNN "Package"
+F 7 "RES 0402 10K 1%" H 9750 4300 50  0001 C CNN "Description"
+F 8 "CRCW040210K0FKED" H 9750 4300 50  0001 C CNN "Alternate Part Number"
+F 9 "5% or better" H 2300 2800 50  0001 C CNN "Notes"
+	1    9750 4300
+	-1   0    0    1   
+$EndComp
+Text Notes 7050 1050 0    39   ~ 0
+Moved button from IO0 to IO26\nAdded pullup IO26\nRemoved piezo buzzer\ntest
 $EndSCHEMATC
